@@ -1,0 +1,25 @@
+uuid: 5328e0f2-1166-4f69-a860-1de40cea9844
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8a08bd9e-9bbd-498f-aee7-612b4f52489c'
+  module:
+    - block_content
+  theme:
+    - njala2020
+id: globalgetintouchwithus
+theme: njala2020
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:8a08bd9e-9bbd-498f-aee7-612b4f52489c'
+settings:
+  id: 'block_content:8a08bd9e-9bbd-498f-aee7-612b4f52489c'
+  label: 'Global: Get in touch with us'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

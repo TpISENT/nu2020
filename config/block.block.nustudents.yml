@@ -1,0 +1,25 @@
+uuid: d415ffc2-f01b-41d3-92dc-bce694374003
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.nu-students
+  module:
+    - system
+  theme:
+    - njala2020
+id: nustudents
+theme: njala2020
+region: footer_top_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:nu-students'
+settings:
+  id: 'system_menu_block:nu-students'
+  label: 'NU Students'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

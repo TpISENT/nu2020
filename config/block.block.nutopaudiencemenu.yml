@@ -1,0 +1,25 @@
+uuid: fc6bb6bb-6e36-4ac2-9821-88fd78c06de5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.nu-top-audience-menu
+  module:
+    - system
+  theme:
+    - njala2020
+id: nutopaudiencemenu
+theme: njala2020
+region: header_top_highlighted_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:nu-top-audience-menu'
+settings:
+  id: 'system_menu_block:nu-top-audience-menu'
+  label: 'Nu Top Audience Menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 126e9036-ca49-4eb8-8be7-dc42ca6f12d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.nu-schools
+  module:
+    - system
+  theme:
+    - njala2020
+id: nuschools
+theme: njala2020
+region: footer_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:nu-schools'
+settings:
+  id: 'system_menu_block:nu-schools'
+  label: 'NU Schools'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

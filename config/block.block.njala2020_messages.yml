@@ -1,0 +1,22 @@
+uuid: 011faf45-5d17-4b4b-b1ae-178588588531
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - njala2020
+_core:
+  default_config_hash: AGinfkuu-rmQvXf1ZxvNGZWYF54_WGtfv3MgwBWsh4s
+id: njala2020_messages
+theme: njala2020
+region: system_messages
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

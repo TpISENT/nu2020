@@ -1,0 +1,22 @@
+uuid: c7c81a32-3dad-420c-8ed9-b1be47224557
+langcode: en
+status: true
+dependencies:
+  theme:
+    - njala2020
+_core:
+  default_config_hash: XhAqACe-3Ds0I7kFst-mLmuv_O6VHdk_bbLbkmExdY4
+id: njala2020_local_tasks
+theme: njala2020
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

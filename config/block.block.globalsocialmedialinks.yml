@@ -1,0 +1,25 @@
+uuid: c4ae8dd1-7b26-4f73-a64f-c58dcb46d1a8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9f8c30fe-0828-438c-b3dc-dc941d4371aa'
+  module:
+    - block_content
+  theme:
+    - njala2020
+id: globalsocialmedialinks
+theme: njala2020
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:9f8c30fe-0828-438c-b3dc-dc941d4371aa'
+settings:
+  id: 'block_content:9f8c30fe-0828-438c-b3dc-dc941d4371aa'
+  label: 'Global Social Media Links'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

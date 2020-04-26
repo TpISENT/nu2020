@@ -1,0 +1,25 @@
+uuid: 77fe9181-ba10-452b-8ee3-c53673968964
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.nu-alumni
+  module:
+    - system
+  theme:
+    - njala2020
+id: nualumni
+theme: njala2020
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'system_menu_block:nu-alumni'
+settings:
+  id: 'system_menu_block:nu-alumni'
+  label: 'NU Alumni'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

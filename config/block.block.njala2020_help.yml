@@ -1,0 +1,22 @@
+uuid: a6769ee9-9041-45de-8a5a-c6512bff331a
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - njala2020
+_core:
+  default_config_hash: 0esN__dZ3n1-DxavuCj-_MPJlsErQIgWQ71mjclns-0
+id: njala2020_help
+theme: njala2020
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

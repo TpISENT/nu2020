@@ -1,0 +1,25 @@
+uuid: 5b6db6b6-9c0d-4b99-91e9-709d0ce4d432
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cdf5651a-e35d-44eb-9f63-afa6b97de4ca'
+  module:
+    - block_content
+  theme:
+    - njala2020
+id: globalcopyright
+theme: njala2020
+region: sub_footer_first
+weight: 0
+provider: null
+plugin: 'block_content:cdf5651a-e35d-44eb-9f63-afa6b97de4ca'
+settings:
+  id: 'block_content:cdf5651a-e35d-44eb-9f63-afa6b97de4ca'
+  label: 'Global: Copyright'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

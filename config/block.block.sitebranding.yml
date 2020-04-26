@@ -1,0 +1,23 @@
+uuid: 2c1cc70e-44e9-4256-81b7-c77941762f53
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - njala2020
+id: sitebranding
+theme: njala2020
+region: header_top_first
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

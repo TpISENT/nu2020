@@ -1,0 +1,20 @@
+uuid: 24b53e78-1175-4f2c-bfa8-5320b15aec85
+langcode: en
+status: true
+dependencies:
+  theme:
+    - njala2020
+_core:
+  default_config_hash: _JQvUqmmo0CNgbhWqiGB0PJLprxnTqNTlL9iHwxbqys
+id: njala2020_local_actions
+theme: njala2020
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

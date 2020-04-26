@@ -1,0 +1,20 @@
+uuid: 15b4baac-65c7-4900-9f9b-2359499e36f4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - njala2020
+_core:
+  default_config_hash: T8leuUraqqwUt-bvsyVWI0wWeLHTfIdHwci-ZQRUKxU
+id: njala2020_page_title
+theme: njala2020
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

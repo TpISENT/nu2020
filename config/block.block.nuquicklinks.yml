@@ -1,0 +1,25 @@
+uuid: 97daa4f4-4c1c-40e2-ae95-1e64042e803f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.nu-quick-links
+  module:
+    - system
+  theme:
+    - njala2020
+id: nuquicklinks
+theme: njala2020
+region: footer_fourth
+weight: 0
+provider: null
+plugin: 'system_menu_block:nu-quick-links'
+settings:
+  id: 'system_menu_block:nu-quick-links'
+  label: 'NU Quick Links'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

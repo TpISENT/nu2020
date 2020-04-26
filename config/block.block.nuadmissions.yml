@@ -1,0 +1,25 @@
+uuid: 5cb73135-e240-44cb-9edb-f6658f5dd527
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.nu-admissions
+  module:
+    - system
+  theme:
+    - njala2020
+id: nuadmissions
+theme: njala2020
+region: footer_third
+weight: 0
+provider: null
+plugin: 'system_menu_block:nu-admissions'
+settings:
+  id: 'system_menu_block:nu-admissions'
+  label: 'NU Admissions'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

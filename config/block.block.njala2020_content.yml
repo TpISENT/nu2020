@@ -1,0 +1,22 @@
+uuid: c39cc044-818e-48fa-9413-c6cc085fe02f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - njala2020
+_core:
+  default_config_hash: 05syD06bKhjDq7C69gQQMp4CA-okdm5bGaltRMghoGA
+id: njala2020_content
+theme: njala2020
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
