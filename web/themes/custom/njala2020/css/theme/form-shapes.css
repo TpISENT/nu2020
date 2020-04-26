@@ -1,0 +1,114 @@
+/**
+ * @file
+ * Styles for NJALA2020's buttons.
+ */
+.nu-style-sharp input.form-text,
+.nu-style-sharp input.form-tel,
+.nu-style-sharp input.form-email,
+.nu-style-sharp input.form-url,
+.nu-style-sharp input.form-search,
+.nu-style-sharp input.form-file,
+.nu-style-sharp input.form-number,
+.nu-style-sharp input.form-color,
+.nu-style-sharp input.form-date,
+.nu-style-sharp input.form-time,
+.nu-style-sharp textarea,
+.nu-style-sharp select,
+.nu-style-sharp .block-mailchimp-signup .form-actions input[type="submit"] {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.nu-style-oval input.form-text,
+.nu-style-oval input.form-tel,
+.nu-style-oval input.form-email,
+.nu-style-oval input.form-url,
+.nu-style-oval input.form-search,
+.nu-style-oval input.form-file,
+.nu-style-oval input.form-number,
+.nu-style-oval input.form-color,
+.nu-style-oval input.form-date,
+.nu-style-oval input.form-time,
+.nu-style-oval select,
+.nu-style-oval .block-mailchimp-signup .form-actions input[type="submit"] {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+.nu-style-oval textarea {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.nu-style-rounded input.form-text,
+.nu-style-rounded input.form-tel,
+.nu-style-rounded input.form-email,
+.nu-style-rounded input.form-url,
+.nu-style-rounded input.form-search,
+.nu-style-rounded input.form-file,
+.nu-style-rounded input.form-number,
+.nu-style-rounded input.form-color,
+.nu-style-rounded input.form-date,
+.nu-style-rounded input.form-time,
+.nu-style-rounded textarea,
+.nu-style-rounded select,
+.nu-style-rounded .block-mailchimp-signup .form-actions input[type="submit"] {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.nu-style-form-sharp input.form-text,
+.nu-style-form-sharp input.form-tel,
+.nu-style-form-sharp input.form-email,
+.nu-style-form-sharp input.form-url,
+.nu-style-form-sharp input.form-search,
+.nu-style-form-sharp input.form-file,
+.nu-style-form-sharp input.form-number,
+.nu-style-form-sharp input.form-color,
+.nu-style-form-sharp input.form-date,
+.nu-style-form-sharp input.form-time,
+.nu-style-form-sharp textarea,
+.nu-style-form-sharp select,
+.nu-style-form-sharp .block-mailchimp-signup .form-actions input[type="submit"] {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.nu-style-form-oval input.form-text,
+.nu-style-form-oval input.form-tel,
+.nu-style-form-oval input.form-email,
+.nu-style-form-oval input.form-url,
+.nu-style-form-oval input.form-search,
+.nu-style-form-oval input.form-file,
+.nu-style-form-oval input.form-number,
+.nu-style-form-oval input.form-color,
+.nu-style-form-oval input.form-date,
+.nu-style-form-oval input.form-time,
+.nu-style-form-oval select,
+.nu-style-form-oval .block-mailchimp-signup .form-actions input[type="submit"] {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+.nu-style-form-oval textarea {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.nu-style-form-rounded input.form-text,
+.nu-style-form-rounded input.form-tel,
+.nu-style-form-rounded input.form-email,
+.nu-style-form-rounded input.form-url,
+.nu-style-form-rounded input.form-search,
+.nu-style-form-rounded input.form-file,
+.nu-style-form-rounded input.form-number,
+.nu-style-form-rounded input.form-color,
+.nu-style-form-rounded input.form-date,
+.nu-style-form-rounded input.form-time,
+.nu-style-form-rounded textarea,
+.nu-style-form-rounded select,
+.nu-style-form-rounded .block-mailchimp-signup .form-actions input[type="submit"] {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}

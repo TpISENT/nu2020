@@ -1,0 +1,19 @@
+/**
+ * @file
+ * Visual styles for Minimal+'s transparent header.
+ */
+
+/* Layout */
+.header-container.js-transparent-header {
+  position: absolute;
+  width: 100%;
+  z-index: 22;
+}
+
+/* Drupal Resets */
+.js-transparent-header + .banner .block:first-child .contextual {
+  top: 200px;
+}
+.js-transparent-header + .banner .block:first-child .view .contextual {
+  top: 230px !important;
+}

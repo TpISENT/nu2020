@@ -1,0 +1,8 @@
+uuid: fbaed2de-f20b-407f-a91f-1ed2bca01f44
+langcode: en
+status: true
+dependencies: {  }
+id: nu-schools
+label: 'NU Schools'
+description: Schools
+locked: false

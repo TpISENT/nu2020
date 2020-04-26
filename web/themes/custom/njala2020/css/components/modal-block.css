@@ -1,0 +1,39 @@
+/**
+ * @file
+ * Visual styles for NJALA2020's modal block.
+ */
+.modal-open .slideout-panel {
+  position: static;
+}
+.block-type--nu-modal .modal-content {
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+}
+.modal-backdrop {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.modal-backdrop.show {
+  opacity: 1;
+}
+.block-type--nu-modal .modal-icon-button {
+  -webkit-appearance: none;
+  border-width: 0;
+  display: block;
+  margin-left: auto;
+  margin-top: 3px;
+  font-size: 18px;
+}
+.block-type--nu-modal .modal-icon-button:not(.nu-button) {
+  background-color: transparent;
+}
+.block-type--nu-modal .modal-icon-button.nu-button {
+  border-width: 1px;
+}
+.block-type--nu-modal button.close {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 36px;
+  opacity: 1;
+}

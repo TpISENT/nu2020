@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Visual styles for NJALA2020's department content type.
+ */
+.node--view-mode-full .nu-department-media-area .field,
+.field--name-field-nu-dpt-image .image-listing-item {
+  margin-bottom: 30px;
+}
+.node--view-mode-full .field--name-field-nu-dpt-subheader-body {
+  font-size: 22px;
+  color: #6c6c6c;
+}

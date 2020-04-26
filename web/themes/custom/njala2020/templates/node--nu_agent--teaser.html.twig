@@ -1,0 +1,33 @@
+{% extends "node.html.twig" %}
+
+{% block meta_area %}
+{% endblock %}
+{% block content %}
+  {{ attach_library('njala2020/node-agent') }}
+  {{ attach_library('njala2020/node-view-mode-teaser') }}
+  <div class="row content">
+    {% if content.field_nu_agt_image|render %}
+      <div class="col-sm-4 mb-4 mb-lg-0">
+        {{ content.field_nu_agt_image }}
+      </div>
+    {% endif %}
+    <div class="
+      {% if (content.field_nu_agt_image|render) %}
+        col-sm-8 ml-xl-auto
+      {% else %}
+        col-sm-12
+      {% endif %}
+    ">
+      {{ title_prefix }}
+      {% if not page %}
+        <h2{{ title_attributes.addClass('node__title') }}>
+          <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+        </h2>
+      {% endif %}
+      {{ title_suffix }}
+      {{ content.field_nu_agt_body }}
+      <a class="nu-link-stylable" href="{{ path('entity.node.canonical', {'node': node.id}) }}">{{ 'More about the agent »'|t }}</a>
+    </div>
+  </div>
+  {{ content|without('field_nu_agt_image', 'field_nu_agt_body') }}
+{% endblock %}

@@ -1,0 +1,364 @@
+/**
+ * @file
+ * Visual styles for NJALA2020's property content type.
+ */
+/* banner */
+.page-node-type-nu-property .banner {
+  background-image: none;
+}
+.page-node-type-nu-property .banner:after {
+  background-color: transparent;
+}
+
+/* main content section */
+.page-node-type-nu-property .sidebar__section {
+  padding-top: 54px;
+}
+
+/*page title*/
+.page-node-type-nu-property .page-title {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+@media (max-width: 767px) {
+  .page-node-type-nu-property .page-title {
+    margin-bottom: 10px;
+  }
+}
+.page-node-type-nu-property .carousel-internal ~ .page-title-container .page-title {
+  margin-top: 20px;
+}
+
+/* node header */
+.node--type-nu-property .node__header {
+  padding: 0;
+}
+
+/* field labels */
+.property-content-top-first .field__label {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333333;
+}
+.node--type-nu-property .field__label {
+  font-size: 30px;
+  line-height: 1.20;
+  padding: 0;
+  margin: 0 0 20px;
+  color: #333333;
+  font-weight: 700;
+}
+.node--type-nu-property .nu-property-features .field__label {
+  font-size: 11px;
+  font-weight: 400;
+  margin: 5px 0 5px 0;
+  opacity: 0.75;
+}
+
+/*subheader field*/
+.node--type-nu-property .field--name-field-nu-prt-subheader-body {
+  font-size: 18px;
+}
+
+/*image field*/
+@media (max-width: 991px) {
+  .node--type-nu-property .field.field--name-field-nu-prt-image {
+    margin: 0 0 30px;
+  }
+}
+@media (max-width: 575px) {
+  .nu-style-sharp.nu-style-image-global .node--type-nu-property .field.field--name-field-nu-prt-image,
+  .nu-style-image-sharp .node--type-nu-property .field.field--name-field-nu-prt-image {
+    margin: 0 -15px 30px;
+  }
+}
+.node--type-nu-property.node--view-mode-teaser .images-container {
+  margin-bottom: 15px;
+}
+
+/*price field*/
+.node--type-nu-property .field.field--name-field-nu-prt-price {
+  font-size: 18px;
+  font-weight: 700;
+}
+.region--dark-typography .node--type-nu-property .field--name-field-nu-prt-price {
+  color: #333333;
+}
+
+/*Contact link field*/
+.node--type-nu-property .field--name-field-nu-prt-contact-link a {
+  min-width: 190px;
+  display: block;
+  background-color: transparent;
+}
+.node--type-nu-property .field--name-field-nu-prt-contact-link a:hover,
+.node--type-nu-property .field--name-field-nu-prt-contact-link a:focus {
+  color: #ffffff;
+}
+
+/*contract and property id fields*/
+.node--type-nu-property .field--name-field-nu-prt-property-id,
+.node--type-nu-property .field--name-field-nu-prt-contract {
+  font-weight: 400;
+}
+.node--type-nu-property .field--name-field-nu-prt-property-id:before,
+.node--type-nu-property .field--name-field-nu-prt-contract:before {
+  content: "#";
+}
+.node--type-nu-property .field--name-field-nu-prt-contract.field--entity-reference-target-type-taxonomy-term,
+.node--type-nu-property .field--name-field-nu-prt-contract.field--entity-reference-target-type-taxonomy-term.field__item {
+  position: inherit;
+  padding-left: 0;
+  padding-top: 0;
+}
+.node--type-nu-property .field--name-field-nu-prt-contract.field--entity-reference-target-type-taxonomy-term::before,
+.node--type-nu-property .field--name-field-nu-prt-contract.field--entity-reference-target-type-taxonomy-term.field__item::before {
+  position: inherit;
+  font-family: inherit;
+  font-weight: 400;
+  left: 0;
+  padding-left: 0;
+  font-size: inherit;
+  position: inherit;
+  top: 0;
+}
+.field--entity-reference-target-type-taxonomy-term {
+  padding-top: 0;
+}
+
+/* categories field */
+.node--type-nu-property .field.field--name-field-nu-prt-type {
+  padding-left: 0;
+  margin: 0;
+  padding-top: 0;
+  font-size: 15px;
+  margin-top: 4px;
+}
+.field--name-field-nu-prt-type.field--label-hidden:before,
+.field--name-field-nu-prt-type.field--label-hidden.field__item:before {
+  content: "\f292";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding-right: 5px;
+  margin-left: 1px;
+  position: static;
+  color: #6c6c6c;
+  font-size: 16px;
+}
+.field--name-field-nu-prt-type > .field__items {
+  padding-right: 0;
+}
+.field--name-field-nu-prt-type > .field__items > .field__item:last-child {
+  margin-right: 0;
+}
+.region--dark-typography .field--name-field-nu-prt-type.field--label-inline .field__label {
+  color: #6c6c6c;
+  font-weight: 400;
+}
+
+/*rooms, floor, baths, surface, heating-system, heating-medium, constraction-year, address, city fields*/
+.field--name-field-nu-prt-rooms .field__label,
+.field--name-field-nu-prt-floor .field__label,
+.field--name-field-nu-prt-baths .field__label,
+.field--name-field-nu-prt-surface .field__label,
+.field--name-field-nu-prt-heating-medium .field__label,
+.field--name-field-nu-prt-heating-system .field__label,
+.field--name-field-nu-prt-construction-year .field__label,
+.field--name-field-nu-prt-address .field__label,
+.field--name-field-nu-prt-city .field__label {
+  font-size: inherit;
+}
+.node--type-nu-property .field--name-field-nu-prt-heating-medium .field__label:before,
+.node--type-nu-property .field--name-field-nu-prt-heating-system .field__label:before {
+  display: none;
+}
+
+/*amenities field*/
+.paragraph--type--nu-property-amenity {
+  position: relative;
+  padding-left: 35px;
+  padding-bottom: 5px;
+}
+.paragraph--type--nu-property-amenity .svg-inline--fa {
+  color: #46c82d;
+  width: 22px;
+  position: absolute;
+  left: 0px;
+  top: 4px;
+}
+.paragraph--type--nu-property-amenity .muted,
+.paragraph--type--nu-property-amenity .muted .svg-inline--fa {
+  color: #a8a8a8;
+}
+
+/* body field */
+.node--type-nu-property .field.field--name-field-nu-prt-body {
+  margin-bottom: 40px;
+}
+.field--name-field-nu-prt-body p:last-child {
+  padding-bottom: 0;
+}
+
+/* node links */
+.layout-no-sidebars .node--type-nu-property.node--view-mode-full .node__links {
+  -ms-flex: 0 0 66.666667%;
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* property meta info */
+.property-meta-info .col-auto + .col-auto:before {
+  content: "";
+  height: 70%;
+  width: 1px;
+  background-color: #cecece;
+  position: absolute;
+  left: -1px;
+  top: 15%;
+}
+
+/* property detailed features */
+.node--type-nu-property .paragraph--type--nu-features-group .field--name-field-nu-fg-group-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.20;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+.node--type-nu-property .paragraph--type--nu-property-features {
+  background-color: #f6f6f6;
+  padding: 10px 15px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+.node--type-nu-property .field--name-field-nu-pf-title {
+  font-weight: 700;
+}
+.node--type-nu-property .paragraph--type--nu-features-group {
+  padding-bottom: 30px;
+}
+.field--name-field-nu-fg-features {
+  display: flex;
+  flex-wrap: wrap;
+}
+.field--name-field-nu-fg-features > .field__item {
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+@media (min-width:992px) {
+  .field--name-field-nu-fg-features > .field__item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/*Node side*/
+.node--type-nu-property .node__side {
+  padding-left: 35px;
+}
+@media (max-width:768px) {
+  .node--type-nu-property .node__side {
+    padding-left: 15px;
+  }
+}
+.node--type-nu-property .node__side .field {
+  margin-bottom: 30px;
+}
+.node--type-nu-property .cta-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.node--type-nu-property .field--name-field-nu-prt-contact-link a {
+  min-width: 0!important;
+  display: inline-block;
+}
+.node--type-nu-property .field--name-field-nu-prt-contact-link.nu-button a,
+.node--type-nu-property .flag-nu-my-listings.nu-button a {
+  width: 100%;
+}
+.node--type-nu-property .field--name-field-nu-prt-contact-link.nu-button,
+.node--type-nu-property .flag-nu-my-listings.nu-button,
+.node--type-nu-property .flag-anon-message {
+  flex-grow: 1;
+}
+.node--type-nu-property .nu-button + .flag-anon-message {
+  margin-left: 20px;
+}
+@media (max-width:419px), (min-width:992px) and (max-width:1500px) {
+  .node--type-nu-property .nu-button + .flag-anon-message {
+    margin-left: 0;
+    width: 100%;
+  }
+  .node--type-nu-property .flag-anon-message span {
+    width: 100%;
+  }
+}
+@media (max-width:450px) {
+  .nu-button + .nu-button {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media (min-width:992px) and (max-width:1500px) {
+  .nu-button + .nu-button {
+    margin-left: 0;
+  }
+}
+@media (min-width:991px) and (max-width:1499px) {
+  .property-content-top-first + .property-content-top-second .nu-button + .nu-button {
+    margin-left: 0;
+  }
+}
+.node--type-nu-property .flag-nu-my-listings a:before,
+.node--type-nu-property .flag-anon-message span:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f004";
+  margin-right: 15px;
+}
+.node--type-nu-property .flag-nu-my-listings.action-flag a:before,
+.node--type-nu-property .flag-anon-message span:before {
+  font-weight: 400;
+}
+.node--type-nu-property .flag-nu-my-listings.action-unflag a:before {
+  font-weight: 900;
+}
+.node--type-nu-property .js-flag-message {
+  position: absolute;
+  border: 1px solid;
+  border-radius: 4px;
+  right: 50px;
+  background: rgba(255,255,255, 1);
+  margin: 0;
+  padding: 8px;
+  width: 220px;
+}
+@media (max-width:768px) {
+  .node--type-nu-property .js-flag-message {
+    width: 180px;
+  }
+}
+.node--type-nu-property .ajax-progress {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.node--type-nu-property .flag a {
+  border-width: 2px;
+  border-style: solid;
+}
+.node--type-nu-property .flag a:hover {
+  border-width: 2px;
+  border-style: solid;
+}

@@ -1,0 +1,143 @@
+/**
+ * @file
+ * Styles for NJALA2020's buttons.
+ */
+/*global styles*/
+.nu-style-sharp span.nu-button,
+.nu-style-sharp a.nu-button,
+.nu-style-sharp .nu-button > a,
+.nu-style-sharp button.nu-button,
+.nu-style-sharp input[type="submit"],
+.nu-style-sharp input[type="reset"],
+.nu-style-sharp input[type="button"],
+.nu-style-sharp .nu-count-down__button,
+.nu-style-sharp .col-12 .view > .more-link a {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.nu-style-oval span.nu-button,
+.nu-style-oval a.nu-button,
+.nu-style-oval .nu-button > a,
+.nu-style-oval button.nu-button,
+.nu-style-oval input[type="submit"],
+.nu-style-oval input[type="reset"],
+.nu-style-oval input[type="button"],
+.nu-style-oval .nu-count-down__button,
+.nu-style-oval .col-12 .view > .more-link a {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+.nu-style-rounded span.nu-button,
+.nu-style-rounded a.nu-button,
+.nu-style-rounded .nu-button > a,
+.nu-style-rounded button.nu-button,
+.nu-style-rounded input[type="submit"],
+.nu-style-rounded input[type="reset"],
+.nu-style-rounded input[type="button"],
+.nu-style-rounded .nu-count-down__button,
+.nu-style-rounded .col-12 .view > .more-link a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*global styles for buttons that oval shape is not supported*/
+.nu-style-sharp .collapsible-sticky-footer-trigger .nu-button,
+.nu-style-sharp .collapsible-block__trigger a,
+.nu-style-sharp .overlay-icon,
+.nu-style-sharp ul.icons-list.icons-list--bordered li a,
+.nu-style-sharp .to-top {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.nu-style-rounded .collapsible-sticky-footer-trigger .nu-button,
+.nu-style-oval .collapsible-sticky-footer-trigger .nu-button,
+.nu-style-rounded .collapsible-block__trigger a,
+.nu-style-oval .collapsible-block__trigger a {
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+.nu-style-rounded .overlay-icon,
+.nu-style-oval .overlay-icon,
+.nu-style-rounded ul.icons-list.icons-list--bordered li a,
+.nu-style-oval ul.icons-list.icons-list--bordered li a,
+.nu-style-rounded .to-top,
+.nu-style-oval .to-top {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*button specific styles*/
+.nu-style-button-sharp span.nu-button,
+.nu-style-button-sharp a.nu-button,
+.nu-style-button-sharp .nu-button > a,
+.nu-style-button-sharp button.nu-button,
+.nu-style-button-sharp input[type="submit"],
+.nu-style-button-sharp input[type="reset"],
+.nu-style-button-sharp input[type="button"],
+.nu-style-button-sharp .nu-count-down__button,
+.nu-style-button-sharp .col-12 .view > .more-link a {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.nu-style-button-oval span.nu-button,
+.nu-style-button-oval a.nu-button,
+.nu-style-button-oval .nu-button > a,
+.nu-style-button-oval button.nu-button,
+.nu-style-button-oval input[type="submit"],
+.nu-style-button-oval input[type="reset"],
+.nu-style-button-oval input[type="button"],
+.nu-style-button-oval .nu-count-down__button,
+.nu-style-button-oval .col-12 .view > .more-link a {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+.nu-style-button-rounded span.nu-button,
+.nu-style-button-rounded a.nu-button,
+.nu-style-button-rounded .nu-button > a,
+.nu-style-button-rounded button.nu-button,
+.nu-style-button-rounded input[type="submit"],
+.nu-style-button-rounded input[type="reset"],
+.nu-style-button-rounded input[type="button"],
+.nu-style-button-rounded .nu-count-down__button,
+.nu-style-button-rounded .col-12 .view > .more-link a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*button specific styles for buttons that oval shape is not supported*/
+.nu-style-button-sharp .collapsible-sticky-footer-trigger .nu-button,
+.nu-style-button-sharp .collapsible-block__trigger a,
+.nu-style-button-sharp .overlay-icon,
+.nu-style-button-sharp ul.icons-list.icons-list--bordered li a,
+.nu-style-button-sharp .to-top {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.nu-style-button-rounded .collapsible-sticky-footer-trigger .nu-button,
+.nu-style-button-oval .collapsible-sticky-footer-trigger .nu-button,
+.nu-style-button-rounded .collapsible-block__trigger a,
+.nu-style-button-oval .collapsible-block__trigger a {
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+.nu-style-button-rounded .overlay-icon,
+.nu-style-button-oval .overlay-icon,
+.nu-style-button-rounded ul.icons-list.icons-list--bordered li a,
+.nu-style-button-oval ul.icons-list.icons-list--bordered li a,
+.nu-style-button-rounded .to-top,
+.nu-style-button-oval .to-top {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}

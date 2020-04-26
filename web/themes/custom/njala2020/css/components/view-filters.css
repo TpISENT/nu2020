@@ -1,0 +1,30 @@
+.view-filters,
+.views-exposed-form {
+  margin-bottom: 30px;
+}
+.view-filters .form--inline .form-item {
+  margin-right: 30px;
+}
+.view-filters .bef-exposed-form .form--inline fieldset legend,
+.view-filters .form-item > label:not(.option),
+.views-exposed-form .bef-exposed-form .form--inline fieldset legend,
+.views-exposed-form .form-item > label:not(.option) {
+  font-size: 18px;
+  padding-bottom: 10px;
+  border: none;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.region--dark-typography .view-filters .bef-exposed-form .form--inline fieldset legend,
+.region--dark-typography .view-filters .form-item > label:not(.option),
+.region--dark-typography .views-exposed-form .bef-exposed-form .form--inline fieldset legend,
+.region--dark-typography .views-exposed-form .form-item > label:not(.option) {
+  color: #2a2a2a;
+}
+.region--dark-typography .region--light-typography .view-filters .bef-exposed-form .form--inline fieldset legend,
+.region--dark-typography .region--light-typography .view-filters .form-item > label:not(.option),
+.region--dark-typography .region--light-typography .views-exposed-form .bef-exposed-form .form--inline fieldset legend,
+.region--dark-typography .region--light-typography .views-exposed-form .form-item > label:not(.option) {
+  color: #FFFFFF;
+}

@@ -1,0 +1,11 @@
+/**
+ * @file
+ * Visual styles for NJALA2020's albums carousel.
+ */
+.nu-carousel-albums {
+  padding: 0 70px;
+  margin-bottom: 100px;
+}
+.nu-carousel-albums .nu-carousel-item {
+  margin: 10px;
+}

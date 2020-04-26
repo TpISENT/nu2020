@@ -1,0 +1,25 @@
+.view-mt-properties-feed .view-content {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.view-mt-properties-feed .views-field-field-mt-prt-address {
+  min-width: 250px;
+}
+.view-mt-properties-feed .views-field-field-mt-prt-price {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  opacity: 0.7;
+  color: darkred;
+}
+.view-mt-properties-feed .views-field-title {
+  font-weight: 700;
+}
+.view-mt-properties-feed table tr td {
+  border: none;
+}
+.view-mt-properties-feed tr:nth-child(even) td {
+  background: #f6f6f6;
+}

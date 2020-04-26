@@ -1,0 +1,18 @@
+/**
+ * @file
+ * Visual styles for Minimal+'s text with illustration block.
+ */
+ .illustration-title {
+   position: absolute;
+ }
+.illustration-image {
+  padding-top: 100px;
+}
+@media (max-width:553px) {
+  .illustration-title {
+    position: inherit;
+  }
+  .illustration-image {
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Visual styles for NJALA2020's agent content type.
+ */
+.node--type-nu-agent.node--view-mode-teaser .node__title {
+  font-size: 40px;
+  font-weight: 600;
+}
+.node--view-mode-full .field.field--name-field-nu-agt-email {
+  margin-bottom: 0;
+  display: inline-block;
+}

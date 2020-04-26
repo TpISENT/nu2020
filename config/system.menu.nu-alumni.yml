@@ -1,0 +1,8 @@
+uuid: d30be682-b082-44e3-b30c-d33b94f42700
+langcode: en
+status: true
+dependencies: {  }
+id: nu-alumni
+label: 'NU Alumni'
+description: Alumni
+locked: false

@@ -1,0 +1,54 @@
+.page-node-type-nu-post .pre-header,
+.page-node-type-nu-post .header-container,
+.page-node-type-nu-post .banner,
+.page-node-type-nu-post .highlighted-top,
+.page-node-type-nu-post .highlighted,
+.page-node-type-nu-post .content-top,
+.page-node-type-nu-post .content-top-highlighted,
+.page-node-type-nu-post .media-background,
+.page-node-type-nu-post .content-bottom,
+.page-node-type-nu-post .featured-top,
+.page-node-type-nu-post .featured,
+.page-node-type-nu-post .featured-bottom,
+.page-node-type-nu-post .sub-featured,
+.page-node-type-nu-post .footer-top,
+.page-node-type-nu-post .footer,
+.page-node-type-nu-post .footer-bottom,
+.page-node-type-nu-post .subfooter,
+.page-node-type-nu-post #toolbar,
+.page-node-type-nu-post .block-local-tasks-block,
+.page-node-type-nu-post .field--type-comment,
+.page-node-type-nu-post aside,
+.page-node-type-nu-post .slideout,
+.page-node-type-nu-post .slideout-toggle,
+.page-node-type-nu-post .nu-count-down-inject,
+.page-node-type-nu-post .flippy,
+.page-node-type-nu-post .node__links {
+  display: none!important;
+}
+.page-node-type-nu-post .main-content .col-md-8 {
+  width: 100%;
+}
+.page-node-type-nu-post .node__side {
+  display: none!important;
+}
+.page-node-type-nu-post .main-content__section {
+  padding-top: 0;
+}
+.page-node-type-nu-post blockquote {
+  border: none;
+}
+a.image-popup[href]:after {
+  content: none;
+}
+.page-node-type-nu-post img {
+  page-break-inside: avoid;
+}
+.page-node-type-nu-post h1,
+.page-node-type-nu-post h2,
+.page-node-type-nu-post h3,
+.page-node-type-nu-post h4,
+.page-node-type-nu-post h5,
+.page-node-type-nu-post h6 {
+   page-break-after: avoid;
+}

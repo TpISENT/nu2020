@@ -1,0 +1,13 @@
+/**
+ * @file
+ * Visual styles for NJALA2020's course content type.
+ */
+
+.node--view-mode-full .nu-course-media-area .field,
+.field--name-field-nu-crs-image .image-listing-item {
+  margin-bottom: 30px;
+}
+.node--view-mode-full .field--name-field-nu-crs-subheader-body {
+  font-size: 22px;
+  color: #6c6c6c;
+}

@@ -1,0 +1,78 @@
+{#
+/**
+ * @file
+ * NJALA2020's theme implementation to display a Property node in teaser tile view mode.
+ */
+#}
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+    node.field_nu_prt_sponsored.value ? 'node--is-sponsored',
+    node.field_nu_prt_special_offer.value ? 'node--is-special-offer',
+  ]
+%}
+{{ attach_library('njala2020/node-view-mode-teaser-tile') }}
+<article{{ attributes.addClass(classes) }}>
+  {{ title_prefix }}
+  {{ title_suffix }}
+  <div class="product-thumbnail-container">
+    {% if content.flag_nu_my_listings|render %}
+      {{ content.flag_nu_my_listings }}
+    {% endif %}
+    {{ content.field_nu_prt_teaser_image }}
+    {% if content.field_nu_prt_type|render %}
+      {{ content.field_nu_prt_type }}
+    {% endif %}
+  </div>
+
+  {% set listing_title_container_margin = '' %}
+  {% if node.field_nu_prt_sponsored.value or node.field_nu_prt_special_offer.value %}
+    {% set listing_title_container_margin = ' mb-2' %}
+  {% endif %}
+  <div class="listing-title-container{{listing_title_container_margin}}">
+    {% if not page %}
+      <h4{{ title_attributes.addClass("node__title mr-2") }}>
+        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+      </h4>
+    {% endif %}
+    {% if content.field_nu_prt_price|render %}
+      <div class="teaser-tile__price">
+        {{ content.field_nu_prt_price }}
+      </div>
+    {% endif %}
+  </div>
+
+  {% if node.field_nu_prt_sponsored.value or node.field_nu_prt_special_offer.value %}
+    <div class="property-marketing-states mb-2">
+      {% if node.field_nu_prt_sponsored.value %}
+        {% trans %}
+          <span class="mr-1 mb-1 promoted-label promoted-label--inverse nu-style-custom-all">Sponsored</span>
+        {% endtrans %}
+      {% endif %}
+
+      {% if node.field_nu_prt_special_offer.value %}
+        {% trans %}
+          <span class="mr-1 mb-1 promoted-label promoted-label--inverse nu-style-custom-all">Special Offer</span>
+        {% endtrans %}
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="listing-location-container">
+    {{ content.field_nu_prt_address }} {{ content.field_nu_prt_city }}
+  </div>
+
+  <div class="listing-features-container">
+    {{ content.field_nu_prt_floor }} {{ content.field_nu_prt_rooms }} {{ content.field_nu_prt_baths }} {{ content.field_nu_prt_surface }}
+  </div>
+
+  <div{{ content_attributes.addClass('node__content') }}>
+    {{ content|without('field_nu_prt_teaser_image', 'field_nu_prt_type', 'field_nu_prt_price', 'field_nu_prt_floor', 'field_nu_prt_rooms', 'field_nu_prt_baths', 'field_nu_prt_surface', 'field_nu_prt_address', 'field_nu_prt_city', 'flag_nu_my_listings') }}
+  </div>
+
+</article>

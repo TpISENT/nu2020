@@ -1,0 +1,99 @@
+{% extends "node.html.twig" %}
+{#
+/**
+ * @file
+ * NJALA2020's theme implementation to display an Agent node.
+ */
+#}
+{% block content %}
+  {{ attach_library('njala2020/node-agent') }}
+  <div class="row content">
+    {% if content.field_nu_agt_image|render and page %}
+      <div class="col-lg-6">
+    {% elseif content.field_nu_agt_image|render and not page %}
+      <div class="col-lg-8">
+    {% else %}
+      <div class="col-sm-12">
+    {% endif %}
+      {{ content.field_nu_agt_body }}
+      {% if (content.field_nu_agt_facebook|render or content.field_nu_agt_twitter|render or content.field_nu_agt_linkedin|render or content.field_nu_agt_instagram|render or content.field_nu_agt_email|render) %}
+        <ul class="icons-list icons-list--large field">
+          {% if content.field_nu_agt_facebook|render %}
+            <li>
+              <a target="_blank" href="{{ node.field_nu_agt_facebook.value }}">
+                <i aria-hidden="true" class="fab fa-facebook" title="Facebook"></i>
+                <span class="sr-only">facebook</span>
+              </a>
+            </li>
+          {% endif %}
+          {% if content.field_nu_agt_twitter|render %}
+            <li>
+              <a target="_blank" href="{{ node.field_nu_agt_twitter.value }}">
+                <i aria-hidden="true" class="fab fa-twitter" title="Twitter"></i>
+                <span class="sr-only">twitter</span>
+              </a>
+            </li>
+          {% endif %}
+          {% if content.field_nu_agt_linkedin|render %}
+            <li>
+              <a target="_blank" href="{{ node.field_nu_agt_linkedin.value }}">
+                <i aria-hidden="true" class="fab fa-linkedin" title="Linkedin"></i>
+                <span class="sr-only">linkedin</span>
+              </a>
+            </li>
+          {% endif %}
+          {% if content.field_nu_agt_instagram|render %}
+            <li>
+              <a target="_blank" href="{{ node.field_nu_agt_instagram.value }}">
+                <i aria-hidden="true" class="fab fa-instagram" title="Instagram"></i>
+                <span class="sr-only">instagram</span>
+              </a>
+            </li>
+          {% endif %}
+          {% if content.field_nu_agt_website|render %}
+            <li>
+              <a target="_blank" href="{{ node.field_nu_agt_website.0.url }}">
+                <i aria-hidden="true" class="fas fa-globe" title="{{ node.field_nu_agt_website.0.title }}"></i>
+                <span class="sr-only">{{ node.field_nu_agt_website.0.title }}</span>
+              </a>
+            </li>
+          {% endif %}
+        </ul>
+      {% endif %}
+
+      {% if content.field_nu_agt_email|render or content.field_nu_agt_phone|render or content.field_nu_agt_mobile|render or content.field_nu_agt_fax|render %}
+        <ul class="list--fa-custom">
+
+          {% if content.field_nu_agt_email|render %}
+            <li><i class="far fa-envelope"></i>{{ content.field_nu_agt_email }}</li>
+          {% endif %}
+
+          {% if content.field_nu_agt_phone|render %}
+            <li><i class="fas fa-phone"></i>{{ node.field_nu_agt_phone.value }}</li>
+          {% endif %}
+
+          {% if content.field_nu_agt_mobile|render %}
+            <li><i class="fas fa-mobile-alt"></i>{{ node.field_nu_agt_mobile.value }}</li>
+          {% endif %}
+
+          {% if content.field_nu_agt_fax|render %}
+            <li><i class="fas fa-fax"></i>{{ node.field_nu_agt_fax.value }}</li>
+          {% endif %}
+
+        </ul>
+      {% endif %}
+    </div>
+
+    {% if content.field_nu_agt_image|render %}
+      {% if page %}
+        {{ attach_library('njala2020/magnific-popup-field-nu-agent-photo-init') }}
+      {% endif %}
+      <div class="{{ (page) ? 'col-lg-6' : 'col-lg-4' }}">
+        <div class="photo-container">
+          {{ content.field_nu_agt_image }}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+  {{ content|without('field_nu_agt_image', 'field_nu_agt_facebook','field_nu_agt_twitter','field_nu_agt_linkedin','field_nu_agt_instagram','field_nu_agt_body','field_nu_agt_phone','field_nu_agt_mobile','field_nu_agt_fax','field_nu_agt_website', 'field_nu_agt_email') }}
+{% endblock %}

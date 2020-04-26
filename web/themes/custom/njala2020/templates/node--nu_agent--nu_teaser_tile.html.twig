@@ -1,0 +1,44 @@
+{#
+/**
+ * @file
+ * NJALA2020's theme implementation to display an Agent  node in teaser tile view mode.
+ */
+#}
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+  ]
+%}
+{{ attach_library('njala2020/node-view-mode-teaser-tile') }}
+<article{{ attributes.addClass(classes) }}>
+{{ title_prefix }}
+{{ title_suffix }}
+<div class="thumbnail-container">
+  {{ content.field_nu_agt_image }}
+  {% if not page %}
+    <h4{{ title_attributes.addClass("mt-0 node__title") }}>
+      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+    </h4>
+  {% endif %}
+  {% if content.field_nu_agt_phone|render or content.field_nu_agt_email|render %}
+    <ul class="list-unstyled">
+      {% if content.field_nu_agt_phone|render %}
+        <li><i class="fas fa-phone mr-1"></i>{{content.field_nu_agt_phone}}</li>
+      {% endif %}
+      {% if content.field_nu_agt_email|render %}
+        <li><i class="far fa-envelope mr-1"></i>{{ content.field_nu_agt_email }}</li>
+      {% endif %}
+    </ul>
+  {% endif %}
+</div>
+
+<div{{ content_attributes.addClass('node__content') }}>
+  {{ content|without('field_nu_agt_image', 'field_nu_agt_email', 'field_nu_agt_phone') }}
+</div>
+
+</article>

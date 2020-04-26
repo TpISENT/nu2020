@@ -1,0 +1,12 @@
+.ui-dialog .ui-dialog-titlebar {
+  background: #f6f6f6;
+}
+.ui-dialog .ui-dialog-content {
+  background: #ffffff;
+}
+.ui-dialog.ui-widget {
+  font-family: inherit;
+}
+.ui-dialog.ui-corner-all {
+  border-radius: 0;
+}

@@ -1,0 +1,5 @@
+# Schema for the configuration files of the NJALA2020 theme.
+
+njala2020.settings:
+  type: theme_settings
+  label: 'NJALA2020 settings'

@@ -1,0 +1,9 @@
+/**
+ * @file
+ * Visual styles for NJALA2020's slider revolution boxed width.
+ */
+@media (max-width: 575px) {
+  .view-nu-slideshow-boxed-width {
+    margin: 0 -15px;
+  }
+}

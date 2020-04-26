@@ -1,0 +1,33 @@
+/**
+ * @file
+ * Styles for NJALA2020's images.
+ */
+/*global styles*/
+.nu-style-sharp img,
+.nu-style-sharp .overlay {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.nu-style-oval img,
+.nu-style-rounded img,
+.nu-style-oval .overlay,
+.nu-style-rounded .overlay {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*images specific styles*/
+.nu-style-image-sharp img,
+.nu-style-image-sharp .overlay {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.nu-style-image-rounded img,
+.nu-style-image-rounded .overlay {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}

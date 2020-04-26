@@ -1,0 +1,52 @@
+/**
+ * @file
+ * Visual styles for NJALA2020's student content type.
+ */
+.page-node-type-nu-student h1.page-title {
+  margin-bottom: 10px;
+}
+.page-node-type-nu-student .node__header {
+  padding: 0;
+}
+.page-node-type-nu-student .field.field--name-field-nu-stdt-body {
+  margin-bottom: 20px;
+}
+.page-node-type-nu-student .field.field--name-field-nu-stdt-member-photo {
+  margin-bottom: 20px;
+}
+@media (max-width: 575px) {
+  .nu-style-sharp.nu-style-image-global .page-node-type-nu-student .field.field--name-field-nu-stdt-member-photo,
+  .nu-style-image-sharp .page-node-type-nu-student .field.field--name-field-nu-stdt-member-photo {
+    margin: 0 -15px 20px;
+  }
+}
+.page-node-type-nu-student .node--view-mode-full .field--name-field-nu-stdt-academic-title,
+.node--view-mode-teaser .field--name-field-nu-stdt-academic-title {
+  font-size: 20px;
+  line-height: 1.20;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+.page-node-type-nu-student .region--dark-typography .field--name-field-nu-stdt-academic-title,
+.region--dark-typography .node--view-mode-teaser .field--name-field-nu-stdt-academic-title {
+  color: #6c6c6c;
+}
+.page-node-type-nu-student .field.field--name-field-nu-stdt-subheader-body {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.region--dark-typography .field--name-field-nu-stdt-subheader-body {
+  color: #2a2a2a;
+}
+.field--name-field-nu-stdt-subheader-body p {
+  padding-bottom: 25px;
+}
+.node--view-mode-teaser .field--name-field-nu-stdt-body {
+  margin-bottom: 15px;
+}
+.node--view-mode-teaser .field--name-field-nu-stdt-body p:last-child {
+  padding-bottom: 0px;
+}
+.node--view-mode-teaser .field--name-field-nu-stdt-academic-title {
+  margin-bottom: 10px;
+}

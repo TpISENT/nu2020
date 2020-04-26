@@ -1,0 +1,8 @@
+uuid: 04dae6f1-adc5-4666-ae3d-21cc34f80aff
+langcode: en
+status: true
+dependencies: {  }
+id: nu-quick-links
+label: 'NU Quick Links'
+description: 'Quick Links'
+locked: false

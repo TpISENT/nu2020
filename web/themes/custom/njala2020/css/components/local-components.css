@@ -1,0 +1,10 @@
+/**
+ * @file
+ * Use this CSS file to override components CSS rules
+ */
+
+/* products views - layout switcher */
+#block-njala2020-productslayoutswithergridactive,
+#block-njala2020-productslayoutswitcherlistactive {
+  padding-bottom: 10px;
+}

@@ -1,0 +1,8 @@
+uuid: 15863408-851c-467f-a526-820ea8c20f0c
+langcode: en
+status: true
+dependencies: {  }
+id: nu-admissions
+label: 'NU Admissions'
+description: Admissions
+locked: false

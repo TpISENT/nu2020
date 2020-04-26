@@ -1,0 +1,345 @@
+/**
+ * @file
+ * Visual styles for NJALA2020's nu-count-down module.
+ */
+.page-node-type-nu-canvas-page .nu-count-down-inject,
+.path-frontpage .nu-count-down-inject {
+  display: none;
+  height: 0px;
+  padding: 0px;
+  border: 0;
+}
+.nu-count-down-theme.nu-count-down-inject .nu-count-down__button {
+  text-decoration: none;
+}
+.nu-count-down {
+  padding: 20px 0;
+  margin: 0;
+  border-radius: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f1f1f1;
+}
+.nu-count-down__title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+.nu-count-down__message {
+  font-size: 15px;
+  padding-bottom: 0;
+  font-weight: 500;
+}
+.nu-count-down__button {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 15px 40px;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+  border-width: 2px;
+  border-style: solid;
+  margin: 0;
+  text-align: center;
+  background-color: transparent;
+}
+.nu-count-down__button:hover {
+  text-decoration: none;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nu-count-down__title {
+    font-size: 24px;
+  }
+  .nu-count-down__message {
+    font-size: 12px;
+  }
+  .nu-count-down__button {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nu-count-down__button {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .nu-count-down__title,
+  .nu-count-down__message {
+    text-align: center;
+  }
+  .nu-count-down__button {
+    margin-top: 20px;
+  }
+}
+.nu-count-down .nu-count-down__daysto {
+  text-align: left;
+}
+.nu-count-down__hint {
+  font-size: 12px;
+}
+.nu-count-down__daysto .nu-time {
+  display: inline-block;
+  text-align: center;
+  margin: 0 5px 0 0;
+}
+.nu-count-down__daysto .nu-count-down__notes {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+}
+.nu-count-down__daysto .nu-count,
+.nu-count-down__daysto .nu-label {
+  display: inline;
+}
+.nu-count-down__daysto .nu-count {
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 23px;
+}
+.nu-count-down__daysto .nu-label {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .nu-count-down__daysto .nu-time {
+    margin: 0 10px 0 0;
+  }
+  .nu-count-down__daysto .nu-count {
+    font-size: 22px;
+    min-width: 0
+  }
+  .nu-count-down__daysto .nu-label {
+    font-size: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nu-count-down__daysto .nu-time {
+    margin: 0 3px;
+  }
+  .nu-count-down__daysto .nu-count {
+    font-size: 16px;
+    min-width: 0;
+  }
+  .nu-count-down__daysto .nu-label {
+    font-size: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .nu-count-down__daysto > span {
+    margin-top: 20px;
+    display: block;
+  }
+  .nu-count-down__daysto .nu-count {
+    display: block;
+  }
+  .nu-count-down__daysto .nu-count-down__notes {
+    text-align: center;
+  }
+  .nu-count-down .nu-count-down-slot {
+    -ms-flex-pack: distribute!important;
+    justify-content: space-around!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+  }
+}
+.nu-count-down.alert button.close {
+  top: 10px;
+  right: 20px;
+}
+@media (max-width: 575px) {
+  .nu-count-down.alert button.close {
+    top: 50%;
+    right: 0px;
+    position: absolute;
+    height: 50px;
+    padding: 0 10px 0 20px;
+    z-index: 1;
+    margin-top: -25px;
+  }
+}
+
+/*count down block*/
+.nu-count-down.nu-count-down-block,
+.nu-count-down.nu-count-down-block .nu-count-down__daysto {
+  text-align: left;
+}
+.col-12 .nu-count-down.nu-count-down-block,
+.col-12 .nu-count-down.nu-count-down-block .nu-count-down__daysto {
+  text-align: center;
+}
+.nu-count-down-block .nu-count-down__button {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 13px 30px 13px;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.nu-count-down-block .nu-count-down__title {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 400;
+}
+.nu-count-down-block .nu-count-down__message {
+  margin-bottom: 20px;
+  font-size: 20px;
+  position: relative;
+}
+.nu-count-down-block .nu-count-down__message:after {
+  background-color: #ddd;
+  content: "";
+  width: 230px;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  top: auto;
+  margin-left: -115px;
+  bottom: -20px;
+}
+.region--light-typography .col-12 .nu-count-down-block .nu-count-down__message:after {
+  background-color: #ffffff;
+}
+.nu-count-down-block .nu-count-down__daysto {
+  margin: 0 0 20px 0;
+}
+.nu-count-down-block .nu-count-down__title + .nu-count-down__daysto,
+.nu-count-down-block .nu-count-down__message + .nu-count-down__daysto {
+  margin-top: 20px;
+}
+.col-12 .nu-count-down-block {
+  padding: 140px 0;
+}
+.col-12 .block .nu-count-down-block {
+  padding: 10px 0 80px;
+}
+.col-12 .nu-count-down-block .nu-count-down__title {
+  font-size: 44px;
+}
+.col-12 .nu-count-down-block .nu-count-down__daysto {
+  padding: 10px 0 0;
+}
+.col-12 .nu-count-down-block .nu-count-down__notes {
+  font-size: 18px;
+  margin-bottom: 15px;
+  display: block;
+}
+.col-12 .nu-count-down-block .nu-count {
+  font-size: 44px;
+  font-weight: 700;
+  padding: 30px 5px;
+  width: 90px;
+  text-align: right;
+}
+.col-12 .nu-count-down-block .nu-label {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  .col-12 .nu-count-down-block .nu-count-down__title {
+    font-size: 60px;
+  }
+  .nu-count-down-block .nu-count-down__message {
+    font-size: 24px;
+  }
+  .col-12 .nu-count-down-block .nu-count {
+    font-size: 60px;
+    width: 120px;
+  }
+}
+@media (max-width: 575px) {
+  .col-12 .nu-count-down-block .nu-time:last-child {
+    display: none;
+  }
+}
+
+/* Color overrides of injectg element */
+.nu-count-down-theme.nu-count-down-inject {
+  /*color: #ffffff;*/
+}
+.nu-count-down-inject.nu-count-down-theme {
+  /*background-color: #2a2a2a;*/
+}
+.nu-count-down-theme.nu-count-down-inject .nu-count-down__notes,
+.nu-count-down-theme.nu-count-down-inject .nu-count-down__message,
+.nu-count-down-theme.nu-count-down-inject .nu-count-down__title,
+.nu-count-down-theme.nu-count-down-inject .nu-count-down__daysto,
+.nu-count-down-theme.nu-count-down-inject .nu-label {
+  /*color: #ffffff;*/
+}
+.nu-count-down-theme.nu-count-down-inject .nu-count-down__message {
+  /*color: #bdbdbd;*/
+}
+.nu-count-down-theme.nu-count-down-inject .nu-count-down__button {
+/*  color: #ffffff;
+  background-color: transparent;*/
+}
+.nu-count-down-inject.nu-count-down-theme .nu-count-down__button:hover,
+.nu-count-down-inject.nu-count-down-theme .nu-count-down__button:focus {
+  /*background-color: #ffffff;*/
+  /*color: #424242;*/
+  /*border-color: #ffffff;*/
+}
+
+/* Color overrides of block element */
+.nu-count-down-theme.nu-count-down-block {
+  /*background-color: transparent;*/
+}
+.nu-count-down-block.nu-count-down-theme .nu-count-down__button {
+  /*color: #ffffff;*/
+}
+.nu-count-down-block.nu-count-down-theme .nu-count-down__button:hover,
+.nu-count-down-block.nu-count-down-theme .nu-count-down__button:focus {
+  /*background-color: #ffffff;*/
+  /*color: #424242;*/
+  /*border-color: #ffffff;*/
+}
+.region--dark-typography .nu-count-down-theme.nu-count-down-block .nu-count-down__title,
+.region--dark-typography .nu-count-down-theme.nu-count-down-block .nu-count-down__notes,
+.region--dark-typography .nu-count-down-theme.nu-count-down-block .nu-count-down__message,
+.region--dark-typography .nu-count-down-theme.nu-count-down-block .nu-count-down__daysto,
+.region--dark-typography .nu-count-down-theme.nu-count-down-block .nu-count-down__hint {
+  /*color: #424242;*/
+}
+.region--light-typography .nu-count-down-theme.nu-count-down-block .nu-count-down__title,
+.region--light-typography .nu-count-down-theme.nu-count-down-block .nu-count-down__notes,
+.region--light-typography .nu-count-down-theme.nu-count-down-block .nu-count-down__message,
+.region--light-typography .nu-count-down-theme.nu-count-down-block .nu-count-down__daysto,
+.region--light-typography .nu-count-down-theme.nu-count-down-block .nu-count-down__hint {
+  /*color: #ffffff;*/
+}
+.nu-count-down-block .nu-count-down__button {
+  /*background-color: transparent;*/
+}
+.region--dark-background .nu-count-down-block.nu-count-down-theme .nu-count-down__button:hover,
+.region--dark-background .nu-count-down-block.nu-count-down-theme .nu-count-down__button:focus {
+  /*background: #ffffff;*/
+  /*color: #424242;*/
+}
+.region--colored-background .nu-count-down-block.nu-count-down-theme .nu-count-down__button {
+  /*background: #ffffff;*/
+  /*color: #424242;*/
+}
+.region--colored-background .nu-count-down-block.nu-count-down-theme .nu-count-down__button:hover,
+.region--colored-background .nu-count-down-block.nu-count-down-theme .nu-count-down__button:focus {
+  /*color: #ffffff;*/
+}

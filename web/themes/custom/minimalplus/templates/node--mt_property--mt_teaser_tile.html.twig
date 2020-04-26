@@ -1,0 +1,78 @@
+{#
+/**
+ * @file
+ * Minimal+'s theme implementation to display a Property node in teaser tile view mode.
+ */
+#}
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+    node.field_mt_prt_sponsored.value ? 'node--is-sponsored',
+    node.field_mt_prt_special_offer.value ? 'node--is-special-offer',
+  ]
+%}
+{{ attach_library('minimalplus/node-view-mode-teaser-tile') }}
+<article{{ attributes.addClass(classes) }}>
+  {{ title_prefix }}
+  {{ title_suffix }}
+  <div class="product-thumbnail-container">
+    {% if content.flag_mt_my_listings|render %}
+      {{ content.flag_mt_my_listings }}
+    {% endif %}
+    {{ content.field_mt_prt_teaser_image }}
+    {% if content.field_mt_prt_type|render %}
+      {{ content.field_mt_prt_type }}
+    {% endif %}
+  </div>
+
+  {% set listing_title_container_margin = '' %}
+  {% if node.field_mt_prt_sponsored.value or node.field_mt_prt_special_offer.value %}
+    {% set listing_title_container_margin = ' mb-2' %}
+  {% endif %}
+  <div class="listing-title-container{{listing_title_container_margin}}">
+    {% if not page %}
+      <h4{{ title_attributes.addClass("node__title mr-2") }}>
+        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+      </h4>
+    {% endif %}
+    {% if content.field_mt_prt_price|render %}
+      <div class="teaser-tile__price">
+        {{ content.field_mt_prt_price }}
+      </div>
+    {% endif %}
+  </div>
+
+  {% if node.field_mt_prt_sponsored.value or node.field_mt_prt_special_offer.value %}
+    <div class="property-marketing-states mb-2">
+      {% if node.field_mt_prt_sponsored.value %}
+        {% trans %}
+          <span class="mr-1 mb-1 promoted-label promoted-label--inverse mt-style-custom-all">Sponsored</span>
+        {% endtrans %}
+      {% endif %}
+
+      {% if node.field_mt_prt_special_offer.value %}
+        {% trans %}
+          <span class="mr-1 mb-1 promoted-label promoted-label--inverse mt-style-custom-all">Special Offer</span>
+        {% endtrans %}
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="listing-location-container">
+    {{ content.field_mt_prt_address }} {{ content.field_mt_prt_city }}
+  </div>
+
+  <div class="listing-features-container">
+    {{ content.field_mt_prt_floor }} {{ content.field_mt_prt_rooms }} {{ content.field_mt_prt_baths }} {{ content.field_mt_prt_surface }}
+  </div>
+
+  <div{{ content_attributes.addClass('node__content') }}>
+    {{ content|without('field_mt_prt_teaser_image', 'field_mt_prt_type', 'field_mt_prt_price', 'field_mt_prt_floor', 'field_mt_prt_rooms', 'field_mt_prt_baths', 'field_mt_prt_surface', 'field_mt_prt_address', 'field_mt_prt_city', 'flag_mt_my_listings') }}
+  </div>
+
+</article>
