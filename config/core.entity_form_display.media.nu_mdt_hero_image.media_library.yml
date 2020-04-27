@@ -1,0 +1,37 @@
+uuid: 19a2d4bb-8d12-4a0c-bde0-c053531915d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.nu_mdt_hero_image.field_media_image_1
+    - image.style.thumbnail
+    - media.type.nu_mdt_hero_image
+  module:
+    - image
+id: media.nu_mdt_hero_image.media_library
+targetEntityType: media
+bundle: nu_mdt_hero_image
+mode: media_library
+content:
+  field_media_image_1:
+    weight: 5
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  name:
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  path: true
+  status: true
+  uid: true
