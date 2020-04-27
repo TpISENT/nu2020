@@ -1,0 +1,31 @@
+uuid: 71e3f635-0ed3-4f0a-aedc-9083a8cae35d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:nu_main_slideshow_block:b9e25813-a27b-4a43-bcdc-e759091437eb'
+  module:
+    - block_content
+    - system
+  theme:
+    - njala2020
+id: homepageslideshow
+theme: njala2020
+region: hero_top
+weight: 0
+provider: null
+plugin: 'block_content:b9e25813-a27b-4a43-bcdc-e759091437eb'
+settings:
+  id: 'block_content:b9e25813-a27b-4a43-bcdc-e759091437eb'
+  label: 'Home Page Slideshow'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

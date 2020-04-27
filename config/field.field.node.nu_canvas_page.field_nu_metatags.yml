@@ -1,0 +1,21 @@
+uuid: dd411746-a508-46de-8284-19a2bcc3ef3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_metatags
+    - node.type.nu_canvas_page
+  module:
+    - metatag
+id: node.nu_canvas_page.field_nu_metatags
+field_name: field_nu_metatags
+entity_type: node
+bundle: nu_canvas_page
+label: Metatags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

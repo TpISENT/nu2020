@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.nu_canvas_page.field_nu_cnv_body
+    - field.field.node.nu_canvas_page.field_nu_metatags
     - node.type.nu_canvas_page
   module:
     - text
@@ -27,4 +28,5 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_nu_metatags: true

@@ -72,13 +72,13 @@ footer_top_layout_container: container
 footer_top_region_paddings: 0
 footer_top_separator: region--no-separator
 google_maps_key: AIzaSyDyL-4KyWw_3hp-0jmZLGcJ3zMWkkJ44VI
-header_background_color: 'region--dark-typography region--default-background'
+header_background_color: 'region--light-typography region--colored-background'
 header_background_image_state: 0
-header_blocks_paddings: 0
+header_blocks_paddings: 1
 header_layout_container: container
-header_region_paddings: 0
+header_region_paddings: 1
 header_top_animation_effect: no-animation
-header_top_background_color: 'region--dark-typography region--gray-background'
+header_top_background_color: 'region--dark-typography region--white-background'
 header_top_blocks_paddings: 0
 header_top_highlighted_animation_effect: no-animation
 header_top_highlighted_background_color: 'region--light-typography region--colored-background'
@@ -194,13 +194,13 @@ sub_featured_id: sub-featured
 sub_featured_layout_container: container
 sub_featured_region_paddings: 0
 sub_featured_separator: region--no-separator
-subfooter_background_color: 'region--light-typography region--dark-background'
-subfooter_blocks_paddings: 0
+subfooter_background_color: 'region--light-typography region--dark-gray-background'
+subfooter_blocks_paddings: 1
 subfooter_bottom_blocks_paddings: false
 subfooter_bottom_region_paddings: false
 subfooter_id: subfooter
 subfooter_layout_container: container
-subfooter_region_paddings: 0
+subfooter_region_paddings: 1
 subfooter_separator: region--no-separator
 subfooter_top_background_color: 'region--light-typography region--dark-background'
 subfooter_top_blocks_paddings: 0
