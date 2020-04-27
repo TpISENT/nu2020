@@ -1,0 +1,63 @@
+uuid: fd666c68-1fcc-400c-9eb5-da1274d64014
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.nu_teaser_tile
+    - field.field.node.nu_faculty.field_nu_fclt_academic_title
+    - field.field.node.nu_faculty.field_nu_fclt_banner_image
+    - field.field.node.nu_faculty.field_nu_fclt_body
+    - field.field.node.nu_faculty.field_nu_fclt_contact_info
+    - field.field.node.nu_faculty.field_nu_fclt_cv
+    - field.field.node.nu_faculty.field_nu_fclt_links
+    - field.field.node.nu_faculty.field_nu_fclt_photo
+    - field.field.node.nu_faculty.field_nu_fclt_publications
+    - field.field.node.nu_faculty.field_nu_fclt_social
+    - field.field.node.nu_faculty.field_nu_fclt_teaser_image
+    - field.field.node.nu_faculty.field_nu_fclt_video
+    - image.style.nu_person_photo
+    - node.type.nu_faculty
+  module:
+    - image
+    - text
+    - user
+id: node.nu_faculty.nu_teaser_tile
+targetEntityType: node
+bundle: nu_faculty
+mode: nu_teaser_tile
+content:
+  field_nu_fclt_academic_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_nu_fclt_body:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    type: text_summary_or_trimmed
+    region: content
+  field_nu_fclt_teaser_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: nu_person_photo
+      image_link: content
+    third_party_settings: {  }
+hidden:
+  field_nu_fclt_banner_image: true
+  field_nu_fclt_contact_info: true
+  field_nu_fclt_cv: true
+  field_nu_fclt_links: true
+  field_nu_fclt_photo: true
+  field_nu_fclt_publications: true
+  field_nu_fclt_social: true
+  field_nu_fclt_video: true
+  links: true

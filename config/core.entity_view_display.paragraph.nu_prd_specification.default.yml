@@ -1,0 +1,30 @@
+uuid: 2a85cf7a-0760-4b54-a592-07618870281c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.nu_prd_specification.field_nu_prd_specification_label
+    - field.field.paragraph.nu_prd_specification.field_nu_prd_specification_value
+    - paragraphs.paragraphs_type.nu_prd_specification
+id: paragraph.nu_prd_specification.default
+targetEntityType: paragraph
+bundle: nu_prd_specification
+mode: default
+content:
+  field_nu_prd_specification_label:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_nu_prd_specification_value:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

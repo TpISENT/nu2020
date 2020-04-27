@@ -1,0 +1,25 @@
+uuid: fc3ceec8-f563-49b0-aef8-be55538c51a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.nu_collections.field_nu_collection_image
+    - field.field.taxonomy_term.nu_collections.field_nu_wide_collection_image
+    - taxonomy.vocabulary.nu_collections
+  module:
+    - text
+id: taxonomy_term.nu_collections.default
+targetEntityType: taxonomy_term
+bundle: nu_collections
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_nu_collection_image: true
+  field_nu_wide_collection_image: true

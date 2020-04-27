@@ -1,0 +1,42 @@
+uuid: 3df04d3a-67dc-4183-9fcb-529611d72f32
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.nu_teaser_tile
+    - field.field.node.nu_album.field_nu_alb_body
+    - field.field.node.nu_album.field_nu_alb_image
+    - field.field.node.nu_album.field_nu_alb_tags
+    - field.field.node.nu_album.field_nu_alb_video
+    - image.style.large
+    - node.type.nu_album
+  module:
+    - image
+    - text
+    - user
+id: node.nu_album.nu_teaser_tile
+targetEntityType: node
+bundle: nu_album
+mode: nu_teaser_tile
+content:
+  field_nu_alb_body:
+    type: text_summary_or_trimmed
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      trim_length: 120
+    third_party_settings: {  }
+  field_nu_alb_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: large
+      image_link: content
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  field_nu_alb_tags: true
+  field_nu_alb_video: true
+  links: true

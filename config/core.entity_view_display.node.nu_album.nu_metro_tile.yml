@@ -1,0 +1,34 @@
+uuid: 126eb2f9-03d2-4315-8af7-c0d5d87c5e00
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.nu_metro_tile
+    - field.field.node.nu_album.field_nu_alb_body
+    - field.field.node.nu_album.field_nu_alb_image
+    - field.field.node.nu_album.field_nu_alb_tags
+    - field.field.node.nu_album.field_nu_alb_video
+    - image.style.nu_metro_tile_square_image
+    - node.type.nu_album
+  module:
+    - image
+    - user
+id: node.nu_album.nu_metro_tile
+targetEntityType: node
+bundle: nu_album
+mode: nu_metro_tile
+content:
+  field_nu_alb_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: nu_metro_tile_square_image
+      image_link: content
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  field_nu_alb_body: true
+  field_nu_alb_tags: true
+  field_nu_alb_video: true
+  links: true

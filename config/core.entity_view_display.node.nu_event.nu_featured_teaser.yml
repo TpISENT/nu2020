@@ -1,0 +1,66 @@
+uuid: 04abeaae-9a5d-4f80-a681-bb0e865dcec4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.nu_featured_teaser
+    - field.field.node.nu_event.field_nu_evnt_address
+    - field.field.node.nu_event.field_nu_evnt_banner_carousel
+    - field.field.node.nu_event.field_nu_evnt_body
+    - field.field.node.nu_event.field_nu_evnt_contact_info
+    - field.field.node.nu_event.field_nu_evnt_date
+    - field.field.node.nu_event.field_nu_evnt_image
+    - field.field.node.nu_event.field_nu_evnt_location
+    - field.field.node.nu_event.field_nu_evnt_related_resources
+    - field.field.node.nu_event.field_nu_evnt_tags
+    - field.field.node.nu_event.field_nu_evnt_teaser_image
+    - field.field.node.nu_event.field_nu_evnt_video
+    - image.style.nu_large_teaser
+    - node.type.nu_event
+  module:
+    - datetime_range
+    - image
+    - text
+    - user
+id: node.nu_event.nu_featured_teaser
+targetEntityType: node
+bundle: nu_event
+mode: nu_featured_teaser
+content:
+  field_nu_evnt_body:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 120
+    third_party_settings: {  }
+    type: text_summary_or_trimmed
+    region: content
+  field_nu_evnt_date:
+    weight: 1
+    label: hidden
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_nu_evnt_teaser_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: nu_large_teaser
+      image_link: content
+    third_party_settings: {  }
+hidden:
+  field_nu_evnt_address: true
+  field_nu_evnt_banner_carousel: true
+  field_nu_evnt_contact_info: true
+  field_nu_evnt_image: true
+  field_nu_evnt_location: true
+  field_nu_evnt_related_resources: true
+  field_nu_evnt_tags: true
+  field_nu_evnt_video: true
+  links: true

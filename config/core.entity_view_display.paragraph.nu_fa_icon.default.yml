@@ -1,0 +1,37 @@
+uuid: 7dbeba8e-77d5-412d-b33a-f0b134f27d4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.nu_fa_icon.field_nu_fa_icon_icon
+    - field.field.paragraph.nu_fa_icon.field_nu_fa_icon_link
+    - paragraphs.paragraphs_type.nu_fa_icon
+  module:
+    - fontawesome
+    - link
+id: paragraph.nu_fa_icon.default
+targetEntityType: paragraph
+bundle: nu_fa_icon
+mode: default
+content:
+  field_nu_fa_icon_icon:
+    weight: 0
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    type: fontawesome_icon_formatter
+    region: content
+  field_nu_fa_icon_link:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

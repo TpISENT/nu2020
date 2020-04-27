@@ -1,0 +1,45 @@
+uuid: f40d50e8-dcd9-4730-b850-0c19784faed2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.nu_how_it_works_item.field_nu_hiw_body
+    - field.field.paragraph.nu_how_it_works_item.field_nu_hiw_link
+    - field.field.paragraph.nu_how_it_works_item.field_nu_hiw_title
+    - paragraphs.paragraphs_type.nu_how_it_works_item
+  module:
+    - link
+    - text
+id: paragraph.nu_how_it_works_item.default
+targetEntityType: paragraph
+bundle: nu_how_it_works_item
+mode: default
+content:
+  field_nu_hiw_body:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_nu_hiw_link:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_nu_hiw_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

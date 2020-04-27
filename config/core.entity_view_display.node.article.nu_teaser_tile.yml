@@ -1,0 +1,53 @@
+uuid: 159db0f7-0cda-424d-9a4d-4e37095bdd51
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.nu_teaser_tile
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_image
+    - field.field.node.article.field_nu_banner_image
+    - field.field.node.article.field_nu_slideshow
+    - field.field.node.article.field_nu_slideshow_image
+    - field.field.node.article.field_nu_slideshow_text
+    - field.field.node.article.field_nu_subheader_body
+    - field.field.node.article.field_nu_video
+    - field.field.node.article.field_tags
+    - image.style.large
+    - node.type.article
+  module:
+    - image
+    - user
+id: node.article.nu_teaser_tile
+targetEntityType: node
+bundle: article
+mode: nu_teaser_tile
+content:
+  field_image:
+    type: image
+    weight: 0
+    settings:
+      image_style: large
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+    region: content
+  field_tags:
+    type: entity_reference_label
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+hidden:
+  body: true
+  comment: true
+  field_nu_banner_image: true
+  field_nu_slideshow: true
+  field_nu_slideshow_image: true
+  field_nu_slideshow_text: true
+  field_nu_subheader_body: true
+  field_nu_video: true
+  links: true

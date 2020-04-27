@@ -1,0 +1,26 @@
+uuid: 7f6245de-56cf-4a75-86b1-bbd5d3c8527e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.nu_collapse.field_nu_collapse_body
+    - field.field.paragraph.nu_collapse.field_nu_collapse_title
+    - paragraphs.paragraphs_type.nu_collapse
+  module:
+    - text
+id: paragraph.nu_collapse.default
+targetEntityType: paragraph
+bundle: nu_collapse
+mode: default
+content:
+  field_nu_collapse_body:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  created: true
+  field_nu_collapse_title: true
+  uid: true

@@ -1,0 +1,59 @@
+uuid: 9e852acb-ca4c-4398-821c-0f9f00dd16d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.nu_featured_teaser
+    - field.field.node.nu_course.field_nu_crs_banner_image
+    - field.field.node.nu_course.field_nu_crs_body
+    - field.field.node.nu_course.field_nu_crs_file_resources
+    - field.field.node.nu_course.field_nu_crs_image
+    - field.field.node.nu_course.field_nu_crs_link_resources
+    - field.field.node.nu_course.field_nu_crs_subheader_body
+    - field.field.node.nu_course.field_nu_crs_teaser_image
+    - field.field.node.nu_course.field_nu_crs_tutors
+    - field.field.node.nu_course.field_nu_crs_video
+    - image.style.nu_large_teaser
+    - node.type.nu_course
+  module:
+    - image
+    - text
+    - user
+id: node.nu_course.nu_featured_teaser
+targetEntityType: node
+bundle: nu_course
+mode: nu_featured_teaser
+content:
+  field_nu_crs_body:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 120
+    third_party_settings: {  }
+    type: text_summary_or_trimmed
+    region: content
+  field_nu_crs_teaser_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: nu_large_teaser
+      image_link: content
+    third_party_settings: {  }
+  field_nu_crs_tutors:
+    weight: 1
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  field_nu_crs_banner_image: true
+  field_nu_crs_file_resources: true
+  field_nu_crs_image: true
+  field_nu_crs_link_resources: true
+  field_nu_crs_subheader_body: true
+  field_nu_crs_video: true
+  links: true

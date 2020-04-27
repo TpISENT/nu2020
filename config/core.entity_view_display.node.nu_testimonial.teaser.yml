@@ -1,0 +1,49 @@
+uuid: 76e93c0c-e8dd-4e00-9bb5-85240cb6e5d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.nu_testimonial.field_nu_tst_body
+    - field.field.node.nu_testimonial.field_nu_tst_subtitle
+    - field.field.node.nu_testimonial.field_nu_tst_testimonial_image
+    - field.field.node.nu_testimonial.field_nu_tst_testimonial_link
+    - image.style.nu_testimonial_image
+    - node.type.nu_testimonial
+  module:
+    - image
+    - text
+    - user
+id: node.nu_testimonial.teaser
+targetEntityType: node
+bundle: nu_testimonial
+mode: teaser
+content:
+  field_nu_tst_body:
+    type: text_summary_or_trimmed
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_nu_tst_subtitle:
+    type: string
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_nu_tst_testimonial_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: nu_testimonial_image
+      image_link: content
+    third_party_settings: {  }
+hidden:
+  field_nu_tst_testimonial_link: true
+  links: true

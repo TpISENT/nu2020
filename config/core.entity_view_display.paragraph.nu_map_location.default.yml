@@ -1,0 +1,18 @@
+uuid: e861ee8a-8df1-4f71-b991-57b12863f206
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.nu_map_location.field_nu_ml_latitude
+    - field.field.paragraph.nu_map_location.field_nu_ml_location_name
+    - field.field.paragraph.nu_map_location.field_nu_ml_longitude
+    - paragraphs.paragraphs_type.nu_map_location
+id: paragraph.nu_map_location.default
+targetEntityType: paragraph
+bundle: nu_map_location
+mode: default
+content: {  }
+hidden:
+  field_nu_ml_latitude: true
+  field_nu_ml_location_name: true
+  field_nu_ml_longitude: true

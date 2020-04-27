@@ -1,0 +1,46 @@
+uuid: b4719f57-87e7-4907-921f-fd57dae107b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.nu_featured_teaser
+    - field.field.node.nu_department.field_nu_dpt_banner_image
+    - field.field.node.nu_department.field_nu_dpt_body
+    - field.field.node.nu_department.field_nu_dpt_image
+    - field.field.node.nu_department.field_nu_dpt_subheader_body
+    - field.field.node.nu_department.field_nu_dpt_teaser_image
+    - field.field.node.nu_department.field_nu_dpt_video
+    - image.style.nu_large_teaser
+    - node.type.nu_department
+  module:
+    - image
+    - text
+    - user
+id: node.nu_department.nu_featured_teaser
+targetEntityType: node
+bundle: nu_department
+mode: nu_featured_teaser
+content:
+  field_nu_dpt_body:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 120
+    third_party_settings: {  }
+    type: text_summary_or_trimmed
+    region: content
+  field_nu_dpt_teaser_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: nu_large_teaser
+      image_link: content
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  field_nu_dpt_banner_image: true
+  field_nu_dpt_image: true
+  field_nu_dpt_subheader_body: true
+  field_nu_dpt_video: true
+  links: true

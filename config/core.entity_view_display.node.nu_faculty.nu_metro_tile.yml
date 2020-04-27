@@ -1,0 +1,55 @@
+uuid: 6e33ebe4-b81d-4333-8eef-d1aedb35dc0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.nu_metro_tile
+    - field.field.node.nu_faculty.field_nu_fclt_academic_title
+    - field.field.node.nu_faculty.field_nu_fclt_banner_image
+    - field.field.node.nu_faculty.field_nu_fclt_body
+    - field.field.node.nu_faculty.field_nu_fclt_contact_info
+    - field.field.node.nu_faculty.field_nu_fclt_cv
+    - field.field.node.nu_faculty.field_nu_fclt_links
+    - field.field.node.nu_faculty.field_nu_fclt_photo
+    - field.field.node.nu_faculty.field_nu_fclt_publications
+    - field.field.node.nu_faculty.field_nu_fclt_social
+    - field.field.node.nu_faculty.field_nu_fclt_teaser_image
+    - field.field.node.nu_faculty.field_nu_fclt_video
+    - image.style.nu_metro_tile_square_image
+    - node.type.nu_faculty
+  module:
+    - image
+    - user
+id: node.nu_faculty.nu_metro_tile
+targetEntityType: node
+bundle: nu_faculty
+mode: nu_metro_tile
+content:
+  field_nu_fclt_academic_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_nu_fclt_teaser_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: nu_metro_tile_square_image
+      image_link: content
+    third_party_settings: {  }
+hidden:
+  field_nu_fclt_banner_image: true
+  field_nu_fclt_body: true
+  field_nu_fclt_contact_info: true
+  field_nu_fclt_cv: true
+  field_nu_fclt_links: true
+  field_nu_fclt_photo: true
+  field_nu_fclt_publications: true
+  field_nu_fclt_social: true
+  field_nu_fclt_video: true
+  links: true

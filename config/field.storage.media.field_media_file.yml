@@ -2,7 +2,7 @@ uuid: 8c567930-ca54-4717-b60b-6eafa943c17f
 langcode: en
 status: true
 dependencies:
-  enforced:
+  enforced: null
   module:
     - file
     - image
