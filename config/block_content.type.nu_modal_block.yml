@@ -1,0 +1,8 @@
+uuid: dba11f6f-ac5e-4c00-9026-2e061f4a0170
+langcode: en
+status: true
+dependencies: {  }
+id: nu_modal_block
+label: 'Modal Block'
+revision: 0
+description: 'Use this custom block type to display other blocks as modal elements, using the corresponding Bootstrap feature.'

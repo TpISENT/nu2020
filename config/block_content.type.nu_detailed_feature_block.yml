@@ -1,0 +1,8 @@
+uuid: 50e96446-fd7a-4446-a75e-a973c1a6972e
+langcode: en
+status: true
+dependencies: {  }
+id: nu_detailed_feature_block
+label: 'Detailed Feature Block'
+revision: 0
+description: ''

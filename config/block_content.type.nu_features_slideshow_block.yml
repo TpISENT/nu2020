@@ -1,0 +1,8 @@
+uuid: dd26b547-2ac1-4d1a-9f02-45e2bd173951
+langcode: en
+status: true
+dependencies: {  }
+id: nu_features_slideshow_block
+label: 'Features Slideshow Block'
+revision: 0
+description: 'Use this custom block type to display features in a slideshow.'

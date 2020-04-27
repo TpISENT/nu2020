@@ -1,0 +1,8 @@
+uuid: a2b0f17b-e292-40cc-93fa-40aded4b55bb
+langcode: en
+status: true
+dependencies: {  }
+name: 'Showcase Tags'
+vid: nu_showcase_tags
+description: ''
+weight: 0

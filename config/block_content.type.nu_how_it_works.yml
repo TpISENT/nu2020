@@ -1,0 +1,8 @@
+uuid: 001637bc-c5f0-47ed-b380-70e471659314
+langcode: en
+status: true
+dependencies: {  }
+id: nu_how_it_works
+label: 'How it works'
+revision: 0
+description: ''

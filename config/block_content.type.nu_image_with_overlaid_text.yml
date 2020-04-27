@@ -1,0 +1,8 @@
+uuid: 98c7a1ef-2620-410c-a108-3e18fd19da66
+langcode: en
+status: true
+dependencies: {  }
+id: nu_image_with_overlaid_text
+label: 'Ιmage with overlaid text'
+revision: 0
+description: ''

@@ -1,0 +1,8 @@
+uuid: 239e75ab-099f-4570-8bad-70a4dc4a54eb
+langcode: en
+status: true
+dependencies: {  }
+id: nu_frontpage_cover_block
+label: 'Front page cover block'
+revision: 0
+description: ''
