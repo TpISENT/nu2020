@@ -1,0 +1,17 @@
+uuid: b9278998-60b5-4fca-879b-a1160f2a242d
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.nu_fullwidth_slide_image
+  module:
+    - crop
+name: nu_slideshow_full_width
+label: 'Slideshow Full Width'
+effects:
+  9b0bac27-7c5c-433e-b8da-ce6516e5b524:
+    uuid: 9b0bac27-7c5c-433e-b8da-ce6516e5b524
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: nu_fullwidth_slide_image
