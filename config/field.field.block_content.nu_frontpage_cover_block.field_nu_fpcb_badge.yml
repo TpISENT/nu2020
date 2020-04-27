@@ -1,0 +1,19 @@
+uuid: a235ea2c-f8a9-47fe-8aa1-2788c3b50b09
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_frontpage_cover_block
+    - field.storage.block_content.field_nu_fpcb_badge
+id: block_content.nu_frontpage_cover_block.field_nu_fpcb_badge
+field_name: field_nu_fpcb_badge
+entity_type: block_content
+bundle: nu_frontpage_cover_block
+label: Badge
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

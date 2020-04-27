@@ -1,0 +1,23 @@
+uuid: ed9cab1e-db68-498c-94fd-93fd3cc4d2dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_hero_block
+    - field.storage.block_content.field_nu_hero_layout
+  module:
+    - options
+id: block_content.nu_hero_block.field_nu_hero_layout
+field_name: field_nu_hero_layout
+entity_type: block_content
+bundle: nu_hero_block
+label: Layout
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: stacked
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,21 @@
+uuid: 92f1df68-7452-4448-9686-a68609cf70ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_modal_block
+    - field.storage.block_content.field_nu_modal_fa_icon
+  module:
+    - fontawesome
+id: block_content.nu_modal_block.field_nu_modal_fa_icon
+field_name: field_nu_modal_fa_icon
+entity_type: block_content
+bundle: nu_modal_block
+label: 'Modal Trigger Icon'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

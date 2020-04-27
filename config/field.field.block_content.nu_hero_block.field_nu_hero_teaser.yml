@@ -1,0 +1,21 @@
+uuid: 1b63579e-6377-4f5a-82a1-0a80969da7e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_hero_block
+    - field.storage.block_content.field_nu_hero_teaser
+  module:
+    - text
+id: block_content.nu_hero_block.field_nu_hero_teaser
+field_name: field_nu_hero_teaser
+entity_type: block_content
+bundle: nu_hero_block
+label: Contact
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

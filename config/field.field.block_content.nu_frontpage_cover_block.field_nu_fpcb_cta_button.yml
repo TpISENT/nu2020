@@ -1,0 +1,23 @@
+uuid: 4175ad9e-a172-47b8-b1d1-6499bb2d6aba
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_frontpage_cover_block
+    - field.storage.block_content.field_nu_fpcb_cta_button
+  module:
+    - link
+id: block_content.nu_frontpage_cover_block.field_nu_fpcb_cta_button
+field_name: field_nu_fpcb_cta_button
+entity_type: block_content
+bundle: nu_frontpage_cover_block
+label: 'Text and link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

@@ -1,0 +1,23 @@
+uuid: ec8bb2dc-23e6-41e6-b47a-39e3cbe53074
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_hero_block
+    - field.storage.block_content.field_nu_hero_link
+  module:
+    - link
+id: block_content.nu_hero_block.field_nu_hero_link
+field_name: field_nu_hero_link
+entity_type: block_content
+bundle: nu_hero_block
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

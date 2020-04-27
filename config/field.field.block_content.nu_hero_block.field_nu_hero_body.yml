@@ -1,0 +1,21 @@
+uuid: 23c584f3-5b6b-44ed-9f6e-028cea073eb1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_hero_block
+    - field.storage.block_content.field_nu_hero_body
+  module:
+    - text
+id: block_content.nu_hero_block.field_nu_hero_body
+field_name: field_nu_hero_body
+entity_type: block_content
+bundle: nu_hero_block
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

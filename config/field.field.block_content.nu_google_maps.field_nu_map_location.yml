@@ -1,0 +1,57 @@
+uuid: 6530800d-8d39-4cd5-a484-738140500835
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_google_maps
+    - field.storage.block_content.field_nu_map_location
+    - paragraphs.paragraphs_type.nu_map_location
+  module:
+    - entity_reference_revisions
+id: block_content.nu_google_maps.field_nu_map_location
+field_name: field_nu_map_location
+entity_type: block_content
+bundle: nu_google_maps
+label: 'Map Location'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      nu_map_location: nu_map_location
+    target_bundles_drag_drop:
+      nu_collapse:
+        weight: 11
+        enabled: false
+      nu_dropdown:
+        weight: 12
+        enabled: false
+      nu_fancy_linked_image:
+        weight: 13
+        enabled: false
+      nu_fancy_tab:
+        weight: 14
+        enabled: false
+      nu_featured_linked_text_tile:
+        weight: 15
+        enabled: false
+      nu_main_slideshow_slide:
+        weight: 16
+        enabled: false
+      nu_map_location:
+        enabled: true
+        weight: 17
+      nu_media_tab:
+        weight: 18
+        enabled: false
+      nu_tab:
+        weight: 19
+        enabled: false
+      nu_video_gallery_slide:
+        weight: 20
+        enabled: false
+field_type: entity_reference_revisions

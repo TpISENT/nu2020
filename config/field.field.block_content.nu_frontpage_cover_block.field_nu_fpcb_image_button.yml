@@ -1,0 +1,79 @@
+uuid: 522d6f10-bd9b-46e4-8c8d-93c3943e08ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_frontpage_cover_block
+    - field.storage.block_content.field_nu_fpcb_image_button
+    - paragraphs.paragraphs_type.nu_image_button
+  module:
+    - entity_reference_revisions
+id: block_content.nu_frontpage_cover_block.field_nu_fpcb_image_button
+field_name: field_nu_fpcb_image_button
+entity_type: block_content
+bundle: nu_frontpage_cover_block
+label: 'Image Buttons'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      nu_image_button: nu_image_button
+    target_bundles_drag_drop:
+      nu_additional_feature:
+        weight: 18
+        enabled: false
+      nu_collapse:
+        weight: 19
+        enabled: false
+      nu_dropdown:
+        weight: 20
+        enabled: false
+      nu_fancy_linked_image:
+        weight: 21
+        enabled: false
+      nu_fancy_tab:
+        weight: 22
+        enabled: false
+      nu_feature:
+        weight: 23
+        enabled: false
+      nu_featured_linked_text_tile:
+        weight: 24
+        enabled: false
+      nu_highlight:
+        weight: 25
+        enabled: false
+      nu_how_it_works_item:
+        weight: 26
+        enabled: false
+      nu_icon_features:
+        weight: 27
+        enabled: false
+      nu_image_button:
+        enabled: true
+        weight: 28
+      nu_main_slideshow_slide:
+        weight: 29
+        enabled: false
+      nu_map_location:
+        weight: 30
+        enabled: false
+      nu_media_tab:
+        weight: 31
+        enabled: false
+      nu_tab:
+        weight: 32
+        enabled: false
+      nu_timeline_item:
+        weight: 33
+        enabled: false
+      nu_video_gallery_slide:
+        weight: 34
+        enabled: false
+field_type: entity_reference_revisions

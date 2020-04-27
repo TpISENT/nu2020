@@ -1,0 +1,76 @@
+uuid: 1d94e647-0e1d-408a-a538-aea8b68ec2d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_how_it_works
+    - field.storage.block_content.field_nu_hiw_item
+    - paragraphs.paragraphs_type.nu_how_it_works_item
+  module:
+    - entity_reference_revisions
+id: block_content.nu_how_it_works.field_nu_hiw_item
+field_name: field_nu_hiw_item
+entity_type: block_content
+bundle: nu_how_it_works
+label: Step
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      nu_how_it_works_item: nu_how_it_works_item
+    target_bundles_drag_drop:
+      nu_additional_feature:
+        weight: 17
+        enabled: false
+      nu_collapse:
+        weight: 18
+        enabled: false
+      nu_dropdown:
+        weight: 19
+        enabled: false
+      nu_fancy_linked_image:
+        weight: 20
+        enabled: false
+      nu_fancy_tab:
+        weight: 21
+        enabled: false
+      nu_feature:
+        weight: 22
+        enabled: false
+      nu_featured_linked_text_tile:
+        weight: 23
+        enabled: false
+      nu_highlight:
+        weight: 24
+        enabled: false
+      nu_how_it_works_item:
+        enabled: true
+        weight: 25
+      nu_icon_features:
+        weight: 26
+        enabled: false
+      nu_main_slideshow_slide:
+        weight: 27
+        enabled: false
+      nu_map_location:
+        weight: 28
+        enabled: false
+      nu_media_tab:
+        weight: 29
+        enabled: false
+      nu_tab:
+        weight: 30
+        enabled: false
+      nu_timeline_item:
+        weight: 31
+        enabled: false
+      nu_video_gallery_slide:
+        weight: 32
+        enabled: false
+field_type: entity_reference_revisions

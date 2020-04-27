@@ -1,0 +1,28 @@
+uuid: 98e1509d-dbee-4c23-80cf-74055e033ff8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_image_with_overlaid_text
+    - field.storage.block_content.field_nu_iwot_image
+    - media.type.image
+id: block_content.nu_image_with_overlaid_text.field_nu_iwot_image
+field_name: field_nu_iwot_image
+entity_type: block_content
+bundle: nu_image_with_overlaid_text
+label: Image
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

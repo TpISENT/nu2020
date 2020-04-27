@@ -1,0 +1,70 @@
+uuid: 2e04f648-833e-4e53-9c7c-5f0916829e8a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_timeline_block
+    - field.storage.block_content.field_nu_tml_timeline_item
+    - paragraphs.paragraphs_type.nu_timeline_item
+  module:
+    - entity_reference_revisions
+id: block_content.nu_timeline_block.field_nu_tml_timeline_item
+field_name: field_nu_tml_timeline_item
+entity_type: block_content
+bundle: nu_timeline_block
+label: Timeline
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      nu_timeline_item: nu_timeline_item
+    target_bundles_drag_drop:
+      nu_additional_feature:
+        weight: 15
+        enabled: false
+      nu_collapse:
+        weight: 16
+        enabled: false
+      nu_dropdown:
+        weight: 17
+        enabled: false
+      nu_fancy_linked_image:
+        weight: 18
+        enabled: false
+      nu_fancy_tab:
+        weight: 19
+        enabled: false
+      nu_featured_linked_text_tile:
+        weight: 20
+        enabled: false
+      nu_highlight:
+        weight: 21
+        enabled: false
+      nu_icon_features:
+        weight: 22
+        enabled: false
+      nu_main_slideshow_slide:
+        weight: 23
+        enabled: false
+      nu_map_location:
+        weight: 24
+        enabled: false
+      nu_media_tab:
+        weight: 25
+        enabled: false
+      nu_tab:
+        weight: 26
+        enabled: false
+      nu_timeline_item:
+        enabled: true
+        weight: 27
+      nu_video_gallery_slide:
+        weight: 28
+        enabled: false
+field_type: entity_reference_revisions

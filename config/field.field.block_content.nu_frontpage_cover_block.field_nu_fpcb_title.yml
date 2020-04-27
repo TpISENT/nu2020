@@ -1,0 +1,19 @@
+uuid: 5278cde9-f623-471d-be31-574381025e75
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_frontpage_cover_block
+    - field.storage.block_content.field_nu_fpcb_title
+id: block_content.nu_frontpage_cover_block.field_nu_fpcb_title
+field_name: field_nu_fpcb_title
+entity_type: block_content
+bundle: nu_frontpage_cover_block
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

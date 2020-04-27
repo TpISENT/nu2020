@@ -1,0 +1,13 @@
+uuid: 1735b4d9-6e63-45b1-b604-e4da51252ac5
+langcode: en
+status: true
+dependencies: {  }
+id: nu_mdt_hero_image
+label: 'Hero Image'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_1
+field_map: {  }

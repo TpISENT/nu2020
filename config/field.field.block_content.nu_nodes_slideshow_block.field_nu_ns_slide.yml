@@ -1,0 +1,30 @@
+uuid: 5e48e528-c122-4020-984a-e98c7ffe27d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_nodes_slideshow_block
+    - field.storage.block_content.field_nu_ns_slide
+    - node.type.nu_product
+    - node.type.nu_service
+id: block_content.nu_nodes_slideshow_block.field_nu_ns_slide
+field_name: field_nu_ns_slide
+entity_type: block_content
+bundle: nu_nodes_slideshow_block
+label: 'Node Slide'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      nu_product: nu_product
+      nu_service: nu_service
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: nu_product
+field_type: entity_reference

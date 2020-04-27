@@ -1,0 +1,28 @@
+uuid: b09accd8-ffef-4341-915b-21fdf01ca402
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_hero_block
+    - field.storage.block_content.field_nu_hero_image
+    - media.type.nu_mdt_hero_image
+id: block_content.nu_hero_block.field_nu_hero_image
+field_name: field_nu_hero_image
+entity_type: block_content
+bundle: nu_hero_block
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      nu_mdt_hero_image: nu_mdt_hero_image
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference
