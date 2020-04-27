@@ -1,0 +1,23 @@
+uuid: d7a82e40-171a-419d-ac75-624725d078c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_dpt_subheader_body
+    - node.type.nu_department
+  module:
+    - text
+id: node.nu_department.field_nu_dpt_subheader_body
+field_name: field_nu_dpt_subheader_body
+entity_type: node
+bundle: nu_department
+label: 'Subheader body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

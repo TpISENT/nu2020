@@ -1,0 +1,25 @@
+uuid: 02c47bba-d2fc-441e-89a4-87babeb87000
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_stdt_video
+    - node.type.nu_student
+  module:
+    - video_embed_field
+id: node.nu_student.field_nu_stdt_video
+field_name: field_nu_stdt_video
+entity_type: node
+bundle: nu_student
+label: Video
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: '0'
+    youtube_playlist: '0'
+    youtube: '0'
+field_type: video_embed_field

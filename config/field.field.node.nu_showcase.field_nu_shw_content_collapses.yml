@@ -1,0 +1,73 @@
+uuid: 947f6c57-1d2f-4b43-9caa-b03e7994da27
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_shw_content_collapses
+    - node.type.nu_showcase
+    - paragraphs.paragraphs_type.nu_collapse
+  module:
+    - entity_reference_revisions
+id: node.nu_showcase.field_nu_shw_content_collapses
+field_name: field_nu_shw_content_collapses
+entity_type: node
+bundle: nu_showcase
+label: Collapses
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      nu_collapse: nu_collapse
+    target_bundles_drag_drop:
+      nu_additional_feature:
+        weight: 16
+        enabled: false
+      nu_collapse:
+        enabled: true
+        weight: 17
+      nu_dropdown:
+        weight: 18
+        enabled: false
+      nu_fancy_linked_image:
+        weight: 19
+        enabled: false
+      nu_fancy_tab:
+        weight: 20
+        enabled: false
+      nu_feature:
+        weight: 21
+        enabled: false
+      nu_featured_linked_text_tile:
+        weight: 22
+        enabled: false
+      nu_highlight:
+        weight: 23
+        enabled: false
+      nu_icon_features:
+        weight: 24
+        enabled: false
+      nu_main_slideshow_slide:
+        weight: 25
+        enabled: false
+      nu_map_location:
+        weight: 26
+        enabled: false
+      nu_media_tab:
+        weight: 27
+        enabled: false
+      nu_tab:
+        weight: 28
+        enabled: false
+      nu_timeline_item:
+        weight: 29
+        enabled: false
+      nu_video_gallery_slide:
+        weight: 30
+        enabled: false
+field_type: entity_reference_revisions

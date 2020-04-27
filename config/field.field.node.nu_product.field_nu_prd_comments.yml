@@ -1,0 +1,33 @@
+uuid: 04f693f7-c7ee-456d-99d1-0212ccc0b00e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_prd_comments
+    - node.type.nu_product
+  module:
+    - comment
+id: node.nu_product.field_nu_prd_comments
+field_name: field_nu_prd_comments
+entity_type: node
+bundle: nu_product
+label: Comments
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: 2
+    cid: 0
+    last_comment_timestamp: 0
+    last_comment_name: null
+    last_comment_uid: 0
+    comment_count: 0
+default_value_callback: ''
+settings:
+  default_mode: 1
+  per_page: 50
+  form_location: true
+  anonymous: 0
+  preview: 1
+field_type: comment

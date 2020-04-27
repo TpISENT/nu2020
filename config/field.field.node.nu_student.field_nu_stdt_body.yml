@@ -1,0 +1,23 @@
+uuid: 21e3a3b9-4aa9-4575-bfce-c20bde865798
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_stdt_body
+    - node.type.nu_student
+  module:
+    - text
+id: node.nu_student.field_nu_stdt_body
+field_name: field_nu_stdt_body
+entity_type: node
+bundle: nu_student
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

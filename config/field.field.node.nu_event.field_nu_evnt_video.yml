@@ -1,0 +1,25 @@
+uuid: b7476add-e66e-478f-8195-714173d518f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_evnt_video
+    - node.type.nu_event
+  module:
+    - video_embed_field
+id: node.nu_event.field_nu_evnt_video
+field_name: field_nu_evnt_video
+entity_type: node
+bundle: nu_event
+label: Video
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: '0'
+    youtube_playlist: '0'
+    youtube: '0'
+field_type: video_embed_field

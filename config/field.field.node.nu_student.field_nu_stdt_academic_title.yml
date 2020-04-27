@@ -1,0 +1,19 @@
+uuid: ddbda53d-62a2-40fc-9d9b-5dd2fd82943a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_stdt_academic_title
+    - node.type.nu_student
+id: node.nu_student.field_nu_stdt_academic_title
+field_name: field_nu_stdt_academic_title
+entity_type: node
+bundle: nu_student
+label: 'Academic title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

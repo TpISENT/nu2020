@@ -1,0 +1,23 @@
+uuid: cabc6a9d-f762-49c6-81dd-62ed9dbffa6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_shw_body
+    - node.type.nu_showcase
+  module:
+    - text
+id: node.nu_showcase.field_nu_shw_body
+field_name: field_nu_shw_body
+entity_type: node
+bundle: nu_showcase
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

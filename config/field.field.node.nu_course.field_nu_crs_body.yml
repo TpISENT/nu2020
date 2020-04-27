@@ -1,0 +1,23 @@
+uuid: 42620ba1-f728-45da-9abe-5857f09dbe4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_crs_body
+    - node.type.nu_course
+  module:
+    - text
+id: node.nu_course.field_nu_crs_body
+field_name: field_nu_crs_body
+entity_type: node
+bundle: nu_course
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

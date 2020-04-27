@@ -1,0 +1,27 @@
+uuid: 3871ee7a-01c0-4880-9f96-62324bd8916e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_fclt_cv
+    - node.type.nu_faculty
+  module:
+    - file
+id: node.nu_faculty.field_nu_fclt_cv
+field_name: field_nu_fclt_cv
+entity_type: node
+bundle: nu_faculty
+label: CV
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf doc docx'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

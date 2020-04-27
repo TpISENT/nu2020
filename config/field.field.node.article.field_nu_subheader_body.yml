@@ -1,0 +1,21 @@
+uuid: 2776cd8f-035f-4eba-8ff9-82b2cbe74b70
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_subheader_body
+    - node.type.article
+  module:
+    - text
+id: node.article.field_nu_subheader_body
+field_name: field_nu_subheader_body
+entity_type: node
+bundle: article
+label: 'Subheader body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

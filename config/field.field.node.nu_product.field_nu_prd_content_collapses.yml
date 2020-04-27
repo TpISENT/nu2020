@@ -1,0 +1,88 @@
+uuid: ba15d439-24c6-4662-8b4d-aa61408437e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_prd_content_collapses
+    - node.type.nu_product
+    - paragraphs.paragraphs_type.nu_collapse
+  module:
+    - entity_reference_revisions
+id: node.nu_product.field_nu_prd_content_collapses
+field_name: field_nu_prd_content_collapses
+entity_type: node
+bundle: nu_product
+label: Details
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      nu_collapse: nu_collapse
+    target_bundles_drag_drop:
+      nu_additional_feature:
+        weight: 19
+        enabled: false
+      nu_collapse:
+        enabled: true
+        weight: 20
+      nu_detailed_feature:
+        weight: 21
+        enabled: false
+      nu_dropdown:
+        weight: 22
+        enabled: false
+      nu_fancy_linked_image:
+        weight: 23
+        enabled: false
+      nu_fancy_tab:
+        weight: 24
+        enabled: false
+      nu_feature:
+        weight: 25
+        enabled: false
+      nu_fa_icon:
+        weight: 26
+        enabled: false
+      nu_featured_linked_text_tile:
+        weight: 26
+        enabled: false
+      nu_highlight:
+        weight: 27
+        enabled: false
+      nu_how_it_works_item:
+        weight: 28
+        enabled: false
+      nu_icon_features:
+        weight: 29
+        enabled: false
+      nu_image_button:
+        weight: 30
+        enabled: false
+      nu_main_slideshow_slide:
+        weight: 31
+        enabled: false
+      nu_map_location:
+        weight: 32
+        enabled: false
+      nu_media_tab:
+        weight: 33
+        enabled: false
+      nu_tab:
+        weight: 34
+        enabled: false
+      nu_prd_specification:
+        weight: 35
+        enabled: false
+      nu_timeline_item:
+        weight: 35
+        enabled: false
+      nu_video_gallery_slide:
+        weight: 36
+        enabled: false
+field_type: entity_reference_revisions

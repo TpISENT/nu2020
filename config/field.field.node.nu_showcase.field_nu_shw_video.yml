@@ -1,0 +1,25 @@
+uuid: 8381f9b8-2e15-426f-bc06-8bc68573d52e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_shw_video
+    - node.type.nu_showcase
+  module:
+    - video_embed_field
+id: node.nu_showcase.field_nu_shw_video
+field_name: field_nu_shw_video
+entity_type: node
+bundle: nu_showcase
+label: 'Video URL'
+description: 'Provide the URL of the Video you''d like to embed from a supported provider (i.e. Vimeo or Youtube)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: vimeo
+    youtube: youtube
+    youtube_playlist: '0'
+field_type: video_embed_field

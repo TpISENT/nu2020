@@ -1,0 +1,23 @@
+uuid: f115490e-cc3b-424d-b435-5723fdf19341
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_evnt_body
+    - node.type.nu_event
+  module:
+    - text
+id: node.nu_event.field_nu_evnt_body
+field_name: field_nu_evnt_body
+entity_type: node
+bundle: nu_event
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

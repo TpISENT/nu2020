@@ -1,0 +1,23 @@
+uuid: f6586173-4fa6-451f-a3a6-72b40e8c4d22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_crs_link_resources
+    - node.type.nu_course
+  module:
+    - link
+id: node.nu_course.field_nu_crs_link_resources
+field_name: field_nu_crs_link_resources
+entity_type: node
+bundle: nu_course
+label: Resources
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

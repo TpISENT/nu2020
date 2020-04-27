@@ -1,0 +1,21 @@
+uuid: 997ef218-6d09-4d52-a6a0-c25fbdfc848c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_evnt_location
+    - node.type.nu_event
+  module:
+    - geolocation
+id: node.nu_event.field_nu_evnt_location
+field_name: field_nu_evnt_location
+entity_type: node
+bundle: nu_event
+label: Location
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

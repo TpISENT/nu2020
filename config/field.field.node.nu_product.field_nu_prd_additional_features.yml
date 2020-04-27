@@ -1,0 +1,67 @@
+uuid: 0d0ca2de-0b85-4c71-b689-725e4d9f9900
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_prd_additional_features
+    - node.type.nu_product
+    - paragraphs.paragraphs_type.nu_additional_feature
+  module:
+    - entity_reference_revisions
+id: node.nu_product.field_nu_prd_additional_features
+field_name: field_nu_prd_additional_features
+entity_type: node
+bundle: nu_product
+label: 'Additional Features'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      nu_additional_feature: nu_additional_feature
+    target_bundles_drag_drop:
+      nu_additional_feature:
+        enabled: true
+        weight: 14
+      nu_collapse:
+        weight: 15
+        enabled: false
+      nu_dropdown:
+        weight: 16
+        enabled: false
+      nu_fancy_linked_image:
+        weight: 17
+        enabled: false
+      nu_fancy_tab:
+        weight: 18
+        enabled: false
+      nu_featured_linked_text_tile:
+        weight: 19
+        enabled: false
+      nu_highlight:
+        weight: 20
+        enabled: false
+      nu_icon_features:
+        weight: 21
+        enabled: false
+      nu_main_slideshow_slide:
+        weight: 22
+        enabled: false
+      nu_map_location:
+        weight: 23
+        enabled: false
+      nu_media_tab:
+        weight: 24
+        enabled: false
+      nu_tab:
+        weight: 25
+        enabled: false
+      nu_video_gallery_slide:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

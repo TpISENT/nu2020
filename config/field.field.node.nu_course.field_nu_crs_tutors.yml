@@ -1,0 +1,30 @@
+uuid: c380025d-5a1d-4074-86a9-99b27664735f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_crs_tutors
+    - node.type.nu_course
+    - node.type.nu_faculty
+    - node.type.nu_student
+id: node.nu_course.field_nu_crs_tutors
+field_name: field_nu_crs_tutors
+entity_type: node
+bundle: nu_course
+label: Tutors
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      nu_faculty: nu_faculty
+      nu_student: nu_student
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: nu_faculty
+field_type: entity_reference

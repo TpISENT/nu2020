@@ -1,0 +1,21 @@
+uuid: d9063482-a523-4d84-98ae-95b2cdc5c3de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_stdt_contact_info
+    - node.type.nu_student
+  module:
+    - text
+id: node.nu_student.field_nu_stdt_contact_info
+field_name: field_nu_stdt_contact_info
+entity_type: node
+bundle: nu_student
+label: 'Contact information'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

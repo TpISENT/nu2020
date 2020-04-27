@@ -1,0 +1,27 @@
+uuid: ed26a0a2-a098-4210-90b8-fca831e55005
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_stdt_cv
+    - node.type.nu_student
+  module:
+    - file
+id: node.nu_student.field_nu_stdt_cv
+field_name: field_nu_stdt_cv
+entity_type: node
+bundle: nu_student
+label: CV
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf doc docx'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

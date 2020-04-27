@@ -1,0 +1,28 @@
+uuid: f5207cdb-f1f3-43cb-a609-a819a93e42ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_stdt_supervisor
+    - node.type.nu_faculty
+    - node.type.nu_student
+id: node.nu_student.field_nu_stdt_supervisor
+field_name: field_nu_stdt_supervisor
+entity_type: node
+bundle: nu_student
+label: Supervisor
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      nu_faculty: nu_faculty
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

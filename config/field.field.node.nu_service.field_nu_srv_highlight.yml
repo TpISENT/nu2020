@@ -1,0 +1,67 @@
+uuid: 99b60365-42f4-47c2-baf4-a3e44bab5407
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_srv_highlight
+    - node.type.nu_service
+    - paragraphs.paragraphs_type.nu_highlight
+  module:
+    - entity_reference_revisions
+id: node.nu_service.field_nu_srv_highlight
+field_name: field_nu_srv_highlight
+entity_type: node
+bundle: nu_service
+label: Highlight
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      nu_highlight: nu_highlight
+    target_bundles_drag_drop:
+      nu_additional_feature:
+        weight: 14
+        enabled: false
+      nu_collapse:
+        weight: 15
+        enabled: false
+      nu_dropdown:
+        weight: 16
+        enabled: false
+      nu_fancy_linked_image:
+        weight: 17
+        enabled: false
+      nu_fancy_tab:
+        weight: 18
+        enabled: false
+      nu_featured_linked_text_tile:
+        weight: 19
+        enabled: false
+      nu_highlight:
+        enabled: true
+        weight: 20
+      nu_icon_features:
+        weight: 21
+        enabled: false
+      nu_main_slideshow_slide:
+        weight: 22
+        enabled: false
+      nu_map_location:
+        weight: 23
+        enabled: false
+      nu_media_tab:
+        weight: 24
+        enabled: false
+      nu_tab:
+        weight: 25
+        enabled: false
+      nu_video_gallery_slide:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

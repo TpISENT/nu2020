@@ -1,0 +1,29 @@
+uuid: d7fa6b65-cbde-4142-b701-0f23680ca4f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_srv_service_tags
+    - node.type.nu_service
+    - taxonomy.vocabulary.nu_service_tags
+id: node.nu_service.field_nu_srv_service_tags
+field_name: field_nu_srv_service_tags
+entity_type: node
+bundle: nu_service
+label: 'Service Tags'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      nu_service_tags: nu_service_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

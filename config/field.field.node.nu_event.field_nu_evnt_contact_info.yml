@@ -1,0 +1,21 @@
+uuid: c9e86410-7b05-4d73-af58-d21649d7dbba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_evnt_contact_info
+    - node.type.nu_event
+  module:
+    - text
+id: node.nu_event.field_nu_evnt_contact_info
+field_name: field_nu_evnt_contact_info
+entity_type: node
+bundle: nu_event
+label: 'Contact Info'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

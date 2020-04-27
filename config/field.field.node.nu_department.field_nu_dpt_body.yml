@@ -1,0 +1,23 @@
+uuid: 2e99619a-0bba-48eb-9c00-ab55107eb64a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_dpt_body
+    - node.type.nu_department
+  module:
+    - text
+id: node.nu_department.field_nu_dpt_body
+field_name: field_nu_dpt_body
+entity_type: node
+bundle: nu_department
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

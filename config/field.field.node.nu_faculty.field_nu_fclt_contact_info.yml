@@ -1,0 +1,21 @@
+uuid: e2a9d7d5-a9be-4bee-a581-ac0f40a6fcc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_fclt_contact_info
+    - node.type.nu_faculty
+  module:
+    - text
+id: node.nu_faculty.field_nu_fclt_contact_info
+field_name: field_nu_fclt_contact_info
+entity_type: node
+bundle: nu_faculty
+label: 'Contact information'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

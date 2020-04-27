@@ -1,0 +1,23 @@
+uuid: e8a746b1-d2e2-45f0-97cf-8c26635b217f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_fclt_publications
+    - node.type.nu_faculty
+  module:
+    - link
+id: node.nu_faculty.field_nu_fclt_publications
+field_name: field_nu_fclt_publications
+entity_type: node
+bundle: nu_faculty
+label: Publications
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

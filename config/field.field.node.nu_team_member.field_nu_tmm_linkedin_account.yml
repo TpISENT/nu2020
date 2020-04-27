@@ -1,0 +1,19 @@
+uuid: 6040ca86-6b34-439f-ae76-57d78f1414f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_tmm_linkedin_account
+    - node.type.nu_team_member
+id: node.nu_team_member.field_nu_tmm_linkedin_account
+field_name: field_nu_tmm_linkedin_account
+entity_type: node
+bundle: nu_team_member
+label: Linkedin
+description: 'Enter the URL of your Linkedin profile, e.g.: https://www.linkedin.com/in/your-account'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: 620e5242-b5ca-4fc9-ba5e-ecb981da66e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_fclt_body
+    - node.type.nu_faculty
+  module:
+    - text
+id: node.nu_faculty.field_nu_fclt_body
+field_name: field_nu_fclt_body
+entity_type: node
+bundle: nu_faculty
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

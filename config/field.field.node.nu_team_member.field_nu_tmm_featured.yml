@@ -1,0 +1,23 @@
+uuid: 4d49887d-6534-4556-b7f6-2335be3b7799
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nu_tmm_featured
+    - node.type.nu_team_member
+id: node.nu_team_member.field_nu_tmm_featured
+field_name: field_nu_tmm_featured
+entity_type: node
+bundle: nu_team_member
+label: Featured
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
