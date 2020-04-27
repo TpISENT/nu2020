@@ -1,0 +1,9 @@
+uuid: 28138226-b559-454c-ab2b-3e2ca804a04d
+langcode: en
+status: true
+dependencies: {  }
+id: node__nu_department
+label: 'Content: Department'
+tags:
+  description: '[node:field_nu_dpt_body:summary]'
+  title: '[node:title] | [site:name]'

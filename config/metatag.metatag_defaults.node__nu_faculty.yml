@@ -1,0 +1,9 @@
+uuid: 21e682e3-cfb3-4647-b0df-4656d05ba0ca
+langcode: en
+status: true
+dependencies: {  }
+id: node__nu_faculty
+label: 'Content: Faculty'
+tags:
+  description: '[node:field_nu_fclt_body:summary]'
+  title: '[node:title] | [site:name]'

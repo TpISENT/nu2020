@@ -1,0 +1,9 @@
+uuid: b2c1d687-c2a8-4793-a80f-1e571459e145
+langcode: en
+status: true
+dependencies: {  }
+id: node__nu_course
+label: 'Content: Course'
+tags:
+  description: '[node:field_nu_crs_body:summary]'
+  title: '[node:title] | [site:name]'

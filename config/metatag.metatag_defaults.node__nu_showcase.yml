@@ -1,0 +1,10 @@
+uuid: 607c8abf-5ea9-4c55-8239-10f6785bd9e1
+langcode: en
+status: true
+dependencies: {  }
+id: node__nu_showcase
+label: 'Content: Showcase'
+tags:
+  canonical_url: '[node:url]'
+  description: '[node:field_nu_shw_body:summary]'
+  title: '[node:title] | [site:name]'

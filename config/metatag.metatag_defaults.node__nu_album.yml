@@ -1,0 +1,10 @@
+uuid: 03b919aa-bea5-4dc7-a670-2c8afbf03622
+langcode: en
+status: true
+dependencies: {  }
+id: node__nu_album
+label: 'Content: Album'
+tags:
+  canonical_url: '[node:url]'
+  description: '[node:field_nu_alb_body:summary]'
+  title: '[node:title] | [site:name]'

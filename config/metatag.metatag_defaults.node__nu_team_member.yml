@@ -1,0 +1,10 @@
+uuid: 494b2b11-ec07-4b4b-a3d9-94e5faacee43
+langcode: en
+status: true
+dependencies: {  }
+id: node__nu_team_member
+label: 'Content: Team Member'
+tags:
+  canonical_url: '[node:url]'
+  description: '[node:field_nu_tmm_subheader_body]'
+  title: '[node:title] | [site:name]'

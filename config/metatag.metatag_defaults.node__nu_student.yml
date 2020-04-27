@@ -1,0 +1,9 @@
+uuid: 8eabd0ce-a8ad-4400-bacd-9d4adc09a783
+langcode: en
+status: true
+dependencies: {  }
+id: node__nu_student
+label: 'Content: Student'
+tags:
+  description: '[node:field_nu_stdt_body:summary]'
+  title: '[node:title] | [site:name]'

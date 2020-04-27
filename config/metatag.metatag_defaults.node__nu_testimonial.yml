@@ -1,0 +1,10 @@
+uuid: d38b90b2-2f60-43a5-86f6-5cd4099e2ee0
+langcode: en
+status: true
+dependencies: {  }
+id: node__nu_testimonial
+label: 'Content: Testimonial'
+tags:
+  canonical_url: '[node:url]'
+  description: '[node:field_nu_tst_body:summary]'
+  title: '[node:title] | [site:name]'

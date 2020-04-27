@@ -1,0 +1,9 @@
+uuid: 9f874792-20a3-4c0c-8dbc-ec49573a601e
+langcode: en
+status: true
+dependencies: {  }
+id: node__nu_event
+label: 'Content: Event'
+tags:
+  description: '[node:field_nu_evnt_body:summary]'
+  title: '[node:title] | [site:name]'

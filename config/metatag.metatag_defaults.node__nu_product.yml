@@ -1,0 +1,10 @@
+uuid: ed76660a-d248-46f1-8961-f409baf820d1
+langcode: en
+status: true
+dependencies: {  }
+id: node__nu_product
+label: 'Content: Product'
+tags:
+  canonical_url: '[node:url]'
+  description: '[node:field_nu_prd_body:summary]'
+  title: '[node:title] | [site:name]'
