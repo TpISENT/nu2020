@@ -1,0 +1,12 @@
+uuid: 7f103eef-71ac-47d6-b24f-802333dc953a
+langcode: en
+status: true
+dependencies: {  }
+id: nu_testimonial_image
+label: 'Testimonial Image'
+description: ''
+aspect_ratio: '1:1'
+soft_limit_width: 750
+soft_limit_height: 750
+hard_limit_width: null
+hard_limit_height: null

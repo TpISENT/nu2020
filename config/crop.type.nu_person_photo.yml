@@ -1,0 +1,12 @@
+uuid: 4bc7ff7b-e98d-4d69-b016-1f9bd57b3768
+langcode: en
+status: true
+dependencies: {  }
+id: nu_person_photo
+label: 'Person Photo'
+description: ''
+aspect_ratio: '1:1'
+soft_limit_width: 690
+soft_limit_height: 690
+hard_limit_width: null
+hard_limit_height: null

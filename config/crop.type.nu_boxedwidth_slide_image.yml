@@ -1,0 +1,12 @@
+uuid: 31b516b3-f360-484a-8f55-9ff62fa7658c
+langcode: en
+status: true
+dependencies: {  }
+id: nu_boxedwidth_slide_image
+label: 'Boxedwidth Slide Image'
+description: ''
+aspect_ratio: '1140:650'
+soft_limit_width: 1140
+soft_limit_height: 650
+hard_limit_width: null
+hard_limit_height: null

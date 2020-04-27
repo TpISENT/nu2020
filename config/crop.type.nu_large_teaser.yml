@@ -1,0 +1,12 @@
+uuid: 383c5ec9-343e-4495-94ad-ea53c22dd70f
+langcode: en
+status: true
+dependencies: {  }
+id: nu_large_teaser
+label: 'Large teaser'
+description: ''
+aspect_ratio: '1110:600'
+soft_limit_width: 1110
+soft_limit_height: 600
+hard_limit_width: null
+hard_limit_height: null

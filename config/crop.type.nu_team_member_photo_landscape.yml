@@ -1,0 +1,12 @@
+uuid: 10bc7a0c-438f-4676-ae10-4d853107d121
+langcode: en
+status: true
+dependencies: {  }
+id: nu_team_member_photo_landscape
+label: 'Team Member Photo (Landscape)'
+description: ''
+aspect_ratio: '1300:650'
+soft_limit_width: 1300
+soft_limit_height: 650
+hard_limit_width: null
+hard_limit_height: null

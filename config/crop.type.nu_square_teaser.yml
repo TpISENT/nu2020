@@ -1,0 +1,12 @@
+uuid: 4681ca20-e5be-410a-b899-9990f363b3ce
+langcode: en
+status: true
+dependencies: {  }
+id: nu_square_teaser
+label: 'Square teaser'
+description: ''
+aspect_ratio: '330:330'
+soft_limit_width: 330
+soft_limit_height: 330
+hard_limit_width: null
+hard_limit_height: null
