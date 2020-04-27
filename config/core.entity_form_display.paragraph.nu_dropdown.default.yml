@@ -1,0 +1,42 @@
+uuid: 898680fd-963a-42a7-a292-ca4d30525d61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.nu_dropdown.field_nu_dropdown_block
+    - field.field.paragraph.nu_dropdown.field_nu_dropdown_fa_icon
+    - field.field.paragraph.nu_dropdown.field_nu_dropdown_fa_icon_active
+    - paragraphs.paragraphs_type.nu_dropdown
+  module:
+    - fontawesome
+id: paragraph.nu_dropdown.default
+targetEntityType: paragraph
+bundle: nu_dropdown
+mode: default
+content:
+  field_nu_dropdown_block:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_nu_dropdown_fa_icon:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: fontawesome_icon_widget
+    region: content
+  field_nu_dropdown_fa_icon_active:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: fontawesome_icon_widget
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

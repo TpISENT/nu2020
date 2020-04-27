@@ -1,0 +1,35 @@
+uuid: 9ad8a309-f886-4010-acda-110fa16b2715
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_detailed_feature_block
+    - field.field.block_content.nu_detailed_feature_block.field_nu_dfb_detailed_feature
+  module:
+    - paragraphs
+id: block_content.nu_detailed_feature_block.default
+targetEntityType: block_content
+bundle: nu_detailed_feature_block
+mode: default
+content:
+  field_nu_dfb_detailed_feature:
+    type: entity_reference_paragraphs
+    weight: 27
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

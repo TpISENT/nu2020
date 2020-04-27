@@ -1,0 +1,35 @@
+uuid: cd8fe904-19d3-4eb5-bfe2-5a257bfc7d3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nu_how_it_works
+    - field.field.block_content.nu_how_it_works.field_nu_hiw_item
+  module:
+    - paragraphs
+id: block_content.nu_how_it_works.default
+targetEntityType: block_content
+bundle: nu_how_it_works
+mode: default
+content:
+  field_nu_hiw_item:
+    type: entity_reference_paragraphs
+    weight: 27
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

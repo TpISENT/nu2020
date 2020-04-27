@@ -1,0 +1,56 @@
+uuid: 1905c999-e312-40b6-a6e9-b6abd5314a9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.nu_feature.field_nu_feature_body
+    - field.field.paragraph.nu_feature.field_nu_feature_image
+    - field.field.paragraph.nu_feature.field_nu_feature_link
+    - field.field.paragraph.nu_feature.field_nu_feature_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.nu_feature
+  module:
+    - image
+    - link
+    - text
+id: paragraph.nu_feature.default
+targetEntityType: paragraph
+bundle: nu_feature
+mode: default
+content:
+  field_nu_feature_body:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_nu_feature_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_nu_feature_link:
+    weight: 3
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_nu_feature_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true
