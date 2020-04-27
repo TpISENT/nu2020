@@ -1,0 +1,21 @@
+uuid: bba48344-e20c-4ed5-ae2e-b4aedf26f0f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_nu_fclt_social
+field_name: field_nu_fclt_social
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

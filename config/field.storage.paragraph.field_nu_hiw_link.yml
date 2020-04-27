@@ -1,0 +1,19 @@
+uuid: 7141b780-2cc8-4388-b4eb-5a3706a67177
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+id: paragraph.field_nu_hiw_link
+field_name: field_nu_hiw_link
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

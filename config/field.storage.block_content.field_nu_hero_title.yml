@@ -1,0 +1,20 @@
+uuid: 94dd6615-9bef-4c4d-8cd1-3fa37902b3cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+id: block_content.field_nu_hero_title
+field_name: field_nu_hero_title
+entity_type: block_content
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

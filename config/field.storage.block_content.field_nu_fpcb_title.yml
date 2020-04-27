@@ -1,0 +1,21 @@
+uuid: 769f5c0e-fa2b-4cc8-8306-a2aeb668d271
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_nu_fpcb_title
+field_name: field_nu_fpcb_title
+entity_type: block_content
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

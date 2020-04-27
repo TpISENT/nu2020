@@ -1,0 +1,19 @@
+uuid: 43c75d5b-3709-4e9a-a137-e14fd9353a4f
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_nu_fclt_publications
+field_name: field_nu_fclt_publications
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

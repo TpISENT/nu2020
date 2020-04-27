@@ -1,0 +1,21 @@
+uuid: b411592d-7e6d-4c7e-98ff-8807ad5d9a8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_nu_prd_subtitle
+field_name: field_nu_prd_subtitle
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

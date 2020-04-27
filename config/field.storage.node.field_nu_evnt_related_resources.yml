@@ -1,0 +1,19 @@
+uuid: e7682f8f-f775-4f72-a880-339ce0ee15b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_nu_evnt_related_resources
+field_name: field_nu_evnt_related_resources
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

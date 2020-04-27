@@ -1,0 +1,21 @@
+uuid: d1b48aff-2aeb-4dbf-b3c4-09a7307e5e96
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_nu_prd_content_collapses
+field_name: field_nu_prd_content_collapses
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

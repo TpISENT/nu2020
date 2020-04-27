@@ -1,0 +1,19 @@
+uuid: 9e88b72a-99b8-4243-b583-aacb37a069d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_nu_evnt_address
+field_name: field_nu_evnt_address
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

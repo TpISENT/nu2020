@@ -1,0 +1,19 @@
+uuid: 2cf8cb63-bfae-438b-8782-d674086de45f
+langcode: en
+status: true
+dependencies:
+  module:
+    - geolocation
+    - node
+id: node.field_nu_evnt_location
+field_name: field_nu_evnt_location
+entity_type: node
+type: geolocation
+settings: {  }
+module: geolocation
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: 75c73597-a5bd-41c0-ac06-f36cf4cbd013
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_nu_prd_delivery_options
+field_name: field_nu_prd_delivery_options
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
