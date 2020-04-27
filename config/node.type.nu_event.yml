@@ -1,0 +1,18 @@
+uuid: 605e8535-a334-4d2d-abe8-93f11703c808
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Event
+type: nu_event
+description: 'Use for posting new events online or on-site.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

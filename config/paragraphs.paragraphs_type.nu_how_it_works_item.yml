@@ -1,0 +1,10 @@
+uuid: d9e27711-91dc-44eb-b535-6f013f7cee07
+langcode: en
+status: true
+dependencies: {  }
+id: nu_how_it_works_item
+label: Step
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

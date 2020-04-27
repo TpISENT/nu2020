@@ -1,0 +1,10 @@
+uuid: 36ad5b6a-0bf2-4221-a9bf-a82abd98427d
+langcode: en
+status: true
+dependencies: {  }
+id: nu_detailed_feature
+label: 'Detailed Feature'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

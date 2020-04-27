@@ -1,0 +1,10 @@
+uuid: 6c880f0e-6d3d-481f-a922-ed0a9245190d
+langcode: en
+status: true
+dependencies: {  }
+id: nu_featured_linked_text_tile
+label: 'Featured Linked Text Tile'
+icon_uuid: null
+icon_default: null
+description: null
+behavior_plugins: {  }

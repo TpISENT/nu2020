@@ -1,0 +1,10 @@
+uuid: 3696ea7b-210d-42c4-8826-cc1915ca907b
+langcode: en
+status: true
+dependencies: {  }
+id: nu_map_location
+label: 'Map Location'
+icon_uuid: null
+icon_default: null
+description: null
+behavior_plugins: {  }

@@ -1,0 +1,10 @@
+uuid: 38750302-eead-4a03-a6e3-0b4f348cc966
+langcode: en
+status: true
+dependencies: {  }
+id: nu_fa_icon
+label: 'Fontawesome Icon'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

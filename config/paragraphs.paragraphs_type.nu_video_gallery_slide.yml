@@ -1,0 +1,10 @@
+uuid: bf084c62-a6f6-4940-ac5d-4e393ca31228
+langcode: en
+status: true
+dependencies: {  }
+id: nu_video_gallery_slide
+label: 'Video Gallery slide'
+icon_uuid: null
+icon_default: null
+description: null
+behavior_plugins: {  }

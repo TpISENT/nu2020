@@ -1,0 +1,10 @@
+uuid: ab5747eb-d1d2-4437-bb7c-e4ea7db801c9
+langcode: en
+status: true
+dependencies: {  }
+id: nu_collapse
+label: Collapse
+icon_uuid: null
+icon_default: null
+description: null
+behavior_plugins: {  }

@@ -1,0 +1,10 @@
+uuid: 5bb01ad3-a9b1-47c5-b9b4-401a016f1d14
+langcode: en
+status: true
+dependencies: {  }
+id: nu_fancy_linked_image
+label: 'Fancy Linked Image'
+icon_uuid: null
+icon_default: null
+description: null
+behavior_plugins: {  }
