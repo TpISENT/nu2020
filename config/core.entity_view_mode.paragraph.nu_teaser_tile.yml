@@ -1,0 +1,10 @@
+uuid: 0aea094c-666a-457c-b44e-d963ddd04166
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.nu_teaser_tile
+label: 'Teaser Tile'
+targetEntityType: paragraph
+cache: true

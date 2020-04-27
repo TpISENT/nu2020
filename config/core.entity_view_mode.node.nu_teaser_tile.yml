@@ -1,0 +1,10 @@
+uuid: 2d8e2f81-79ed-41ba-9fba-e706ed460e2c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.nu_teaser_tile
+label: 'Teaser Tile'
+targetEntityType: node
+cache: true

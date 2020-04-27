@@ -1,0 +1,10 @@
+uuid: aa3d88b1-dddd-4cdd-a3c2-dfcc1ccd4114
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.nu_media_object
+label: 'Media Object'
+targetEntityType: node
+cache: true
