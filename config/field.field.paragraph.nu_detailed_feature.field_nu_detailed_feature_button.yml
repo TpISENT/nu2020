@@ -1,0 +1,23 @@
+uuid: c689d333-99cb-4e29-a3c7-822db61e009c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nu_detailed_feature_button
+    - paragraphs.paragraphs_type.nu_detailed_feature
+  module:
+    - link
+id: paragraph.nu_detailed_feature.field_nu_detailed_feature_button
+field_name: field_nu_detailed_feature_button
+entity_type: paragraph
+bundle: nu_detailed_feature
+label: Button
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

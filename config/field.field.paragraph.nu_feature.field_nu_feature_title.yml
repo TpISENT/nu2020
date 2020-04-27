@@ -1,0 +1,19 @@
+uuid: a33e554b-d10f-470f-aa10-a2f96cc1ac61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nu_feature_title
+    - paragraphs.paragraphs_type.nu_feature
+id: paragraph.nu_feature.field_nu_feature_title
+field_name: field_nu_feature_title
+entity_type: paragraph
+bundle: nu_feature
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

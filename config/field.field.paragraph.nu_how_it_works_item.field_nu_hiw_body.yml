@@ -1,0 +1,21 @@
+uuid: c8083a8a-51c4-48e0-831f-a466570e3411
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nu_hiw_body
+    - paragraphs.paragraphs_type.nu_how_it_works_item
+  module:
+    - text
+id: paragraph.nu_how_it_works_item.field_nu_hiw_body
+field_name: field_nu_hiw_body
+entity_type: paragraph
+bundle: nu_how_it_works_item
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

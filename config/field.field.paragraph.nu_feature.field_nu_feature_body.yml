@@ -1,0 +1,21 @@
+uuid: 13816e6e-b954-4739-8eb4-18b7a60c3e3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nu_feature_body
+    - paragraphs.paragraphs_type.nu_feature
+  module:
+    - text
+id: paragraph.nu_feature.field_nu_feature_body
+field_name: field_nu_feature_body
+entity_type: paragraph
+bundle: nu_feature
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

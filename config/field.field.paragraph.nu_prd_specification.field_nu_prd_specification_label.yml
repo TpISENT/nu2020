@@ -1,0 +1,19 @@
+uuid: 42395246-c772-478c-a7c1-cbdb14806a73
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nu_prd_specification_label
+    - paragraphs.paragraphs_type.nu_prd_specification
+id: paragraph.nu_prd_specification.field_nu_prd_specification_label
+field_name: field_nu_prd_specification_label
+entity_type: paragraph
+bundle: nu_prd_specification
+label: Label
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

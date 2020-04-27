@@ -1,0 +1,21 @@
+uuid: 9ed8baf7-5cab-4aed-ac27-fff81e8b2da6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nu_detailed_feature_body
+    - paragraphs.paragraphs_type.nu_detailed_feature
+  module:
+    - text
+id: paragraph.nu_detailed_feature.field_nu_detailed_feature_body
+field_name: field_nu_detailed_feature_body
+entity_type: paragraph
+bundle: nu_detailed_feature
+label: Body
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

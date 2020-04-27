@@ -1,0 +1,23 @@
+uuid: f6610e3f-c2df-47b7-a4fa-d2d8ac5e6100
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nu_image_button_link
+    - paragraphs.paragraphs_type.nu_image_button
+  module:
+    - link
+id: paragraph.nu_image_button.field_nu_image_button_link
+field_name: field_nu_image_button_link
+entity_type: paragraph
+bundle: nu_image_button
+label: Link
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

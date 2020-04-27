@@ -1,0 +1,21 @@
+uuid: c78bb90d-2e74-40b7-9f19-710fd5f0d878
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nu_fa_icon_icon
+    - paragraphs.paragraphs_type.nu_fa_icon
+  module:
+    - fontawesome
+id: paragraph.nu_fa_icon.field_nu_fa_icon_icon
+field_name: field_nu_fa_icon_icon
+entity_type: paragraph
+bundle: nu_fa_icon
+label: Icon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

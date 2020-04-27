@@ -1,0 +1,19 @@
+uuid: a0a8727b-234d-4083-937b-4b7bd7dce3d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nu_hiw_title
+    - paragraphs.paragraphs_type.nu_how_it_works_item
+id: paragraph.nu_how_it_works_item.field_nu_hiw_title
+field_name: field_nu_hiw_title
+entity_type: paragraph
+bundle: nu_how_it_works_item
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
